@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px 0px 0px 0px;
+    overflow-x: hidden;
+ }
+
+::-webkit-scrollbar{
+    border: 0px;
+    width: 0px;
+    scroll-behavior: inherit;
+    scroll-behavior: initial;
+    scroll-behavior: unset;
+}
+.carrousel{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.row{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+img{
+    width: 40rem;
+    height: 58.6rem;
+    padding: 0px 0px 0px 0px;
+    object-fit: cover;
+}
+/* footer{
+    width: 900px;
+    height: 969px;
+}
+     */
