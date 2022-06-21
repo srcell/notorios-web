@@ -125,7 +125,7 @@ a{
 }
 button{
     border: 0px;
-    padding: 10px;
+    padding: 10px 15px 10px 15px;
     background-color: var(--color3);
     transition: 0.5s;
 }
