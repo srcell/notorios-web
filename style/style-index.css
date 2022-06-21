@@ -1,9 +1,19 @@
+:root{
+    --color-black: black;
+    --color2: #e8e8e8;
+    --color3: #f0b1d0;
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url('/fonts/poppins-bold.ttf');
+}
 html{
     scroll-behavior: smooth;
 }
 body{
     padding: 0px 0px 0px 0px;
     overflow-x: hidden;
+    background-color: var(--color-black);
  }
 
 ::-webkit-scrollbar{
@@ -27,9 +37,100 @@ img{
     padding: 0px 0px 0px 0px;
     object-fit: cover;
 }
+/* img:hover{
+    transform: scale(1.1);
+} */
 /* footer{
     width: 900px;
     height: 969px;
 }
 */
 
+/*******************************************/
+#noticias .container{
+    position: relative;
+}
+#btnBlancoNegro{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+
+#fondo-oscuro{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 2000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color2);
+}
+#fondo-oscuro img{
+    width: 25%;
+    height: auto;
+}
+
+#cards-productos .card-img-top{
+    padding: 30px;
+}
+
+.btnVistaPrevia{
+cursor: pointer;
+}
+
+#carousel-sites{
+    background-color: var(--color4);
+    color: var(--color-blanco);
+}
+#carousel-sites figure{
+    position: relative;
+} 
+#carousel-sites figure figcaption{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+#carousel-sites figure figcaption div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#carousel-sites figure figcaption div i{
+    cursor: pointer;
+}
+
+title{
+    color: var(--color2);
+}
+h1{
+    font-family: 'poppins-bold';
+    padding-bottom: 40px;
+}
+a{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+button{
+    border: 0px;
+    padding: 10px;
+    background-color: var(--color3);
+    transition: 0.5s;
+}
+
+button:hover{
+    color:var(--color-black);
+    background-color: var(--color2);
+}
