@@ -1,0 +1,12 @@
+.carrousel{
+    border: 1px solid black;
+    width: 640px;
+    height: 969px;
+    padding: 0px 0px 0px 0px;
+}
+img{
+    width: 640px;
+    height: 969px;
+    object-fit: cover;
+}
+    
