@@ -27,6 +27,14 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
+
+/* .gallery{
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 40rem), 1fr));
+} */
+
 .row{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -37,6 +45,7 @@ img{
     padding: 0px 0px 0px 0px;
     object-fit: cover;
 }
+
 /* img:hover{
     transform: scale(1.1);
 } */
@@ -85,14 +94,15 @@ img{
 cursor: pointer;
 }
 
-#carousel-sites{
+/*****************************************************/
+#redes{
     background-color: var(--color4);
     color: var(--color-blanco);
 }
-#carousel-sites figure{
+#redes figure{
     position: relative;
 } 
-#carousel-sites figure figcaption{
+#redes figure figcaption{
     position: absolute;
     background-color: rgba(0,0,0,0.8);
     width: 100%;
@@ -100,16 +110,69 @@ cursor: pointer;
     top: 0;
     display: none;
 }
-#carousel-sites figure figcaption div{
+#redes figure figcaption div{
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#carousel-sites figure figcaption div i{
+#redes figure figcaption div i{
     cursor: pointer;
 }
+/*****************************************************/
+#bran{
+    background-color: var(--color4);
+    color: var(--color-blanco);
+}
+#bran figure{
+    position: relative;
+} 
+#bran figure figcaption{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+#bran figure figcaption div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#bran figure figcaption div i{
+    cursor: pointer;
+}
+/*****************************************************/
+#alex{
+    background-color: var(--color4);
+    color: var(--color-blanco);
+}
+#alex figure{
+    position: relative;
+} 
+#alex figure figcaption{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+#alex figure figcaption div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#alex figure figcaption div i{
+    cursor: pointer;
+}
+/*************************************************************/
 
 title{
     color: var(--color2);
