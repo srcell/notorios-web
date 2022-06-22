@@ -3,10 +3,12 @@
     --color2: #e8e8e8;
     --color3: #f0b1d0;
 }
+/*FUENTES*/
 @font-face {
     font-family: poppins-bold;
     src: url('/fonts/poppins-bold.ttf');
 }
+/*CUERPO DE LA PAGINA*/
 html{
     scroll-behavior: smooth;
 }
@@ -15,7 +17,29 @@ body{
     overflow-x: hidden;
     background-color: var(--color-black);
  }
+title{
+    color: var(--color2);
+}
+h1{
+    font-family: 'poppins-bold';
+    padding-bottom: 40px;
+}
+a{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+button{
+    border: 0px;
+    padding: 10px 15px 10px 15px;
+    background-color: var(--color3);
+    transition: 0.5s;
+}
 
+button:hover{
+    color:var(--color-black);
+    background-color: var(--color2);
+}
 ::-webkit-scrollbar{
     border: 0px;
     width: 0px;
@@ -64,8 +88,6 @@ img{
     right: 0;
     cursor: pointer;
 }
-
-
 #fondo-oscuro{
     background-color: rgba(0,0,0,0.8);
     width: 100%;
@@ -85,15 +107,13 @@ img{
     width: 25%;
     height: auto;
 }
-
 #cards-productos .card-img-top{
     padding: 30px;
 }
-
 .btnVistaPrevia{
 cursor: pointer;
 }
-
+/*APARTADO DE FADEIN DE LAS WEB*/
 /*****************************************************/
 #redes{
     background-color: var(--color4);
@@ -173,27 +193,3 @@ cursor: pointer;
     cursor: pointer;
 }
 /*************************************************************/
-
-title{
-    color: var(--color2);
-}
-h1{
-    font-family: 'poppins-bold';
-    padding-bottom: 40px;
-}
-a{
-    margin: 0px;
-    font-size: 15px;
-    font-weight: bold;
-}
-button{
-    border: 0px;
-    padding: 10px 15px 10px 15px;
-    background-color: var(--color3);
-    transition: 0.5s;
-}
-
-button:hover{
-    color:var(--color-black);
-    background-color: var(--color2);
-}

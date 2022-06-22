@@ -1,5 +1,7 @@
+document.oncontextmenu = function(){
+    return false;
+}
 $(function(){
-
     //REDES REDIRECCIONAMIENTO
 
     $("#redes figure").append("<figcaption>");
@@ -16,17 +18,15 @@ $(function(){
 
    $("#redes figure").each(function(){
        var nombre = $(this).find("img").attr("title");
-       console.log(nombre);
+    //    console.log(nombre);
        var rutaImagen = $(this).find("img").attr("src");
 
        $(this).find("figcaption").html("<div><h1 style='color: white;'>" + nombre + "</h1></div>");
        $(this).find("figcaption div").append("<button type='button'; onclick='javascript:cambiar_redes();'><a>VER MÁS</a></button>");
    });
 
-//BRANDING REDIRECCIONAMIENTO
+    //BRANDING REDIRECCIONAMIENTO
     $("#bran figure").append("<figcaption>");
-
-   // show/hide , fadeIn/fadeOut , slideDown/slideUp
 
    $("#bran figure").mouseenter(function(){
        $(this).find("figcaption").stop().fadeIn("slow");
@@ -38,7 +38,7 @@ $(function(){
 
    $("#bran figure").each(function(){
        var nombre = $(this).find("img").attr("title");
-       console.log(nombre);
+    //    console.log(nombre);
        var rutaImagen = $(this).find("img").attr("src");
 
        $(this).find("figcaption").html("<div><h1 style='color: white;'>" + nombre + "</h1></div>");
@@ -48,8 +48,6 @@ $(function(){
    //ALEX DEY REDIRECCIONAMIENTO
 
       $("#alex figure").append("<figcaption>");
-
-      // show/hide , fadeIn/fadeOut , slideDown/slideUp
    
       $("#alex figure").mouseenter(function(){
           $(this).find("figcaption").stop().fadeIn("slow");
@@ -61,13 +59,12 @@ $(function(){
    
       $("#alex figure").each(function(){
           var nombre = $(this).find("img").attr("title");
-          console.log(nombre);
+        //   console.log(nombre);
           var rutaImagen = $(this).find("img").attr("src");
    
           $(this).find("figcaption").html("<div><h1 style='color: white;'>" + nombre + "</h1></div>");
           $(this).find("figcaption div").append("<button type='button'; onclick='javascript:cambiar_alex();'><a>VER MÁS</a></button>");
       });
-
 });
 
 function cambiar_branding(){
@@ -79,6 +76,8 @@ function cambiar_alex(){
 function cambiar_redes(){
     location.href="/pages/redes.html"
 }
+
+// PARA NO DAR CLIC DERECHO
 
 // window.onscroll = function () {
 //     window.scrollTo({
