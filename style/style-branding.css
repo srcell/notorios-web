@@ -1,0 +1,139 @@
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color2: #e8e8e8;
+    --color3: #f0b1d0;
+}
+@font-face {
+    font-family: poppins-semibold;
+    src: url('/fonts/poppins-semibold.ttf');
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url('/fonts/poppins-medium.ttf');
+}
+body{
+    background-color: var(--color-black);
+}
+::-webkit-scrollbar{
+    border: 0px;
+    width: 0px;
+    scroll-behavior: inherit;
+    scroll-behavior: initial;
+    scroll-behavior: unset;
+}
+
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: var(--color3);
+    width: 0%;
+    height: 2px;
+}
+.navbar .navbar-nav .nav-item:hover::after{
+    width: 100%;
+}
+
+
+.content-portfolio{
+    background-color: var(--color3);
+}
+.sub-content{
+    background-color: var(--color2);
+}
+.sub-content-two{
+    background-color: var(--color-black);
+    color: var(--color2);
+}
+
+.navbar{
+    background-color: var(--color-black) !important;
+}
+.nav-item a{
+    font-family:poppins-medium;
+    color: var(--color2);
+}
+.nav-link{
+    color: var(--color-black);
+    font-size:15px ;
+    font-style:italic;
+}
+.sepa{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.sepa-one{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    padding-top: 20px;
+    padding-right: 70px;
+}
+.nav-link:hover{
+    color: var(--color3);
+    font-size:15px ;
+}
+.nav-link:active{
+    color: var(--color3) !important;
+}
+
+.main-text-footer{
+    border-top: 1px solid var(--color2);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: var(--color-white);
+    font-family: poppins-medium;
+    font-size: 15px;
+}
+.bi{
+    float: right;
+    font-size: 25px;
+    padding-right: 15px;
+    color: var(--color-white);
+}
+
+.bi:hover{
+    color: var(--color3);
+}
+
+/* .card-wrapper{
+    display: flex;
+}
+.card{
+    width: 0rem;
+    width: calc(100%/3);
+}
+.image-wrapper{
+    height: 22vw;
+} 
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}     
+
+ */
+
+span{
+    color:var(--color-white)
+}
+.carousel-inner{
+    padding: 30px 100px 100px 50px;
+    margin: 0 auto;
+}
+
+.glide__slide img{
+    padding: 50px 110px 140px 110px;
+    width: 80rem;
+}
+
+.area-black{
+    border: 1px solid purple;
+}
