@@ -12,6 +12,12 @@
         height: 76.3rem;
     }
 }
+@media(max-width:1920px){
+    img{
+        width: 40rem;
+        height: 68.3rem;
+    }
+}
 @media(max-width:1700px){
     img{
         width: 36rem;
