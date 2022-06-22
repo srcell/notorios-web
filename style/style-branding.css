@@ -134,6 +134,14 @@ span{
     width: 80rem;
 }
 
+@media(max-width:1440px){
+    .glide__slide img{
+        width: 64.5rem;
+    }
+    .glide__arrows{
+        display: none;
+    }
+}
 .area-black{
     border: 1px solid purple;
 }
