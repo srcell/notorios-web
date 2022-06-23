@@ -1,6 +1,7 @@
 :root{
     --color-black: black;
     --color-white: white;
+    --color-smoke: #515151;
     --color2: #e8e8e8;
     --color3: #f0b1d0;
 }
@@ -12,6 +13,10 @@
 @font-face {
     font-family: poppins-blackitalic;
     src: url('/fonts/poppins-blackitalic.ttf');
+}
+@font-face {
+    font-family: poppins-bolditalic;
+    src: url('/fonts/poppins-bolditalic.ttf');
 }
 /*CUERPO DE LA PAGINA*/
 html{
@@ -287,7 +292,7 @@ span{
 }
 
 #guie{
-    color: var(--color-black);
+    color: var(--color-smoke);
     font-weight: bold;
 }
 .number{
@@ -303,6 +308,12 @@ span{
 
 #prefieres{
     background-color: var(--color-white);
+}
+#prefieres h2{
+    font-family: poppins-bold;
+}
+.title-prefieres{
+    font-family: poppins-bolditalic;
 }
 #boton-consulta{
     padding: 0px 180px 0px 180px;
