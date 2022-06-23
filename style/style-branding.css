@@ -130,16 +130,21 @@ span{
 }
 
 .glide__slide img{
-    padding: 50px 110px 140px 110px;
-    width: 80rem;
+    padding: 50px 0px 150px 0px;
+    width: 60rem;
 }
 
 @media(max-width:1440px){
     .glide__slide img{
-        width: 64.5rem;
+        width: 90.5rem;
     }
     .glide__arrows{
         display: none;
+    }
+}
+@media(max-width:360px){
+    .glide__slide img{
+    object-fit: cover;
     }
 }
 .area-black{
