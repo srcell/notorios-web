@@ -1,97 +1,97 @@
 /*RESPONSIVE AREA*/
 
 /* @media(max-width:1920px){
-    img{
+    .image{
         width: 40rem;
         height: 67.5rem;
     }
 } */
 @media(max-width:2560px){
-    img{
+    .image{
         width: 53.3rem;
         height: 76.3rem;
     }
 }
 @media(max-width:1920px){
-    img{
+    .image{
         width: 40rem;
         height: 58.3rem;
     }
 }
 @media(max-width:1700px){
-    img{
+    .image{
         width: 36rem;
         height: 56.3rem;
     }
 }
 @media(max-width:1440px){
-    img{
+    .image{
         width: 30rem;
         height: 56.3rem;
     }
 }
 @media(max-width:1366px){
-    img{
+    .image{
         width: 28.5rem;
         height: 48rem;
     }
 }
 @media(max-width:1280px){
-    img{
+    .image{
         width: 26.7rem;
         height: 50.1rem;
     }
 }
 @media(max-width:1040px){
-    img{
+    .image{
         width: 24.3rem;
         height: 40rem;
     }
 }
 @media(max-width:1024px){
-    img{
+    .image{
         width: 21.3rem;
         height: 38rem;
     }
 }
 @media(max-width:912px){
-    img{
+    .image{
         width: 57rem;
         height: 85.5rem;
     }
 }
 @media(max-width:820px){
-    img{
+    .image{
         width: 51.1rem;
         height: 80rem;
     }
 }
 @media(max-width:720px){
-    img{
+    .image{
         width: 45rem;
         height: 70rem;
     }
 }
 @media(max-width:540px){
-    img{
+    .image{
         width: 33.8rem;
         height: 45rem;
     }
 }
 @media(max-width:414px){
-    img{
+    .image{
         width: 25.9rem;
         height: 46.1rem;
     }
 }
 @media(max-width:375px){
-    img{
+    .image{
         width: 23.5rem;
         height: 42rem;
     }
 }
 @media(max-width:360px){
-    img{
+    .image{
         width: 22.5rem;
         height: 30rem;
     }
