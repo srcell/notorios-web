@@ -12,9 +12,45 @@
     font-family: poppins-medium;
     src: url('/fonts/poppins-medium.ttf');
 }
+@font-face {
+    font-family: poppins-bolditalic;
+    src: url('/fonts/poppins-bolditalic.ttf');
+}
 body{
     background-color: var(--color-black);
 }
+h1{
+    color: var(--color-white);
+}
+h4{
+    font-family: poppins-bolditalic;
+    color: var(--color-white);
+    padding-bottom: 5px;
+}
+p{
+    margin: 0px 0px 0px 0px;
+    color: var(--color-black);
+    font-weight: bold;
+}
+.footer-text{
+    color: var(--color-white);
+}
+
+.des-intro{
+    color: var(--color-white);
+}
+.introduction{
+    padding: 50px 0px 0px 100px;
+}
+.title-port{
+    margin-bottom: 110px;
+}
+.title-port-sub{
+    margin-left: 32px;
+    margin-right: 700px;
+    background-color: var(--color-white);
+}
+
 .loader {
     position: fixed;
     left: 0px;
@@ -143,7 +179,7 @@ span{
 }
 
 .glide__slide img{
-    margin: 50px 0px 150px 0px;
+    margin-top:50px ;
     width: 60rem;
 }
 
