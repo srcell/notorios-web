@@ -1,9 +1,10 @@
+
 document.oncontextmenu = function(){
     return false;
 }
 $(function(){
     //REDES REDIRECCIONAMIENTO
-
+    
     $("#redes figure").append("<figcaption>");
 
    // show/hide , fadeIn/fadeOut , slideDown/slideUp
