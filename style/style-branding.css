@@ -145,7 +145,11 @@ span{
 }
 @media(max-width:360px){
     .glide__slide img{
+    width: 22.5rem;
+    content: url(/img/branding.png);
     object-fit: cover;
+    padding-top:0px;
+    padding-bottom: 0px;
     }
 }
 .area-black{
