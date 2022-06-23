@@ -77,6 +77,14 @@ function cambiar_redes(){
     location.href="/pages/redes.html"
 }
 
+
+
+function wtps_juan(){
+    location.href="/pages/alex-dey.html"
+}
+
+
+
 // PARA NO DAR CLIC DERECHO
 
 // window.onscroll = function () {

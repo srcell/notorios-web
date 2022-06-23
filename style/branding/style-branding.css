@@ -15,6 +15,9 @@
 body{
     background-color: var(--color-black);
 }
+#active{
+    color: var(--color3);
+}
 ::-webkit-scrollbar{
     border: 0px;
     width: 0px;

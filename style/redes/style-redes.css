@@ -1,0 +1,143 @@
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color2: #e8e8e8;
+    --color3: #f0b1d0;
+}
+@font-face {
+    font-family: poppins-semibold;
+    src: url('/fonts/poppins-semibold.ttf');
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url('/fonts/poppins-bold.ttf');
+}
+@font-face {
+    font-family: poppins-extrabolditalic;
+    src: url('/fonts/poppins-extrabolditalic.ttf');
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url('/fonts/poppins-medium.ttf');
+}
+
+.padding{
+    padding-top: 300px;
+    padding-bottom: 90px;
+}
+#main-section{
+    background-image: url(/img/background-redes.png);
+    background-repeat: no-repeat;
+}
+.info{    
+    width: 1500px;
+    height: 791px;
+}
+
+::-webkit-scrollbar{
+    border: 0px;
+    width: 0px;
+    scroll-behavior: inherit;
+    scroll-behavior: initial;
+    scroll-behavior: unset;
+}
+
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: var(--color3);
+    width: 0%;
+    height: 2px;
+}
+.navbar .navbar-nav .nav-item:hover::after{
+    width: 100%;
+}
+
+
+.content-portfolio{
+    background-color: var(--color3);
+}
+.sub-content{
+    background-color: var(--color2);
+}
+.sub-content-two{
+    background-color: var(--color-black);
+    color: var(--color2);
+}
+
+.navbar{
+    background-color: var(--color-white) !important;
+}
+.nav-item a{
+    font-family:poppins-medium;
+    color: var(--color-black);
+}
+#active{
+    color: var(--color3);
+}
+.nav-link{
+    color: var(--color-black);
+    font-size:15px ;
+    font-style:italic;
+}
+.sepa{
+    padding-left: 120px;
+    padding-top: 5px;
+}
+.sepa-one{
+    padding-left: 70px;
+    padding-top: 5px;
+}
+
+.navbar-brand{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 70px;
+}
+.nav-link:hover{
+    color: var(--color3);
+    font-size:15px ;
+}
+.nav-link:active{
+    color: var(--color3) !important;
+}
+
+
+
+
+footer{
+    background-color: var(--color-black);
+}
+.main-text-footer{
+    border-top: 1px solid var(--color-black);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: var(--color-white);
+    font-family: poppins-medium;
+    font-size: 15px;
+}
+.bi{
+    float: right;
+    font-size: 25px;
+    padding-right: 15px;
+    color: var(--color-white);
+}
+.bi:hover{
+    padding-bottom: 50px;
+    color: var(--color3);
+}
+
+
+.all-text{
+}
+
+h1{
+    font-family: poppins-extrabolditalic;
+    font-weight: bold;
+}
