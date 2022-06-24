@@ -88,7 +88,7 @@
         padding: 0px 20px 0px 20px  
      }
 }
-@media(max-width:414px){
+@media(max-width:425px){
     .image{
         width: 25.9rem;
         height: 46.1rem;
@@ -109,7 +109,7 @@
     }
     .number {
         background-color: var(--color3);
-        margin-left: 164px;
+        margin-left: 177px;
         margin-right: 163px;
         border-radius: 10px;
     }
