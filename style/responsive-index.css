@@ -73,18 +73,30 @@
         width: 45rem;
         height: 70rem;
     }
+    #boton-consulta {
+        text-align: center;
+        padding: 0px 20px 0px 20px  
+     }
 }
 @media(max-width:540px){
     .image{
-        width: 33.8rem;
+        width: 25.8rem;
         height: 45rem;
     }
+    #boton-consulta {
+        text-align: center;
+        padding: 0px 20px 0px 20px  
+     }
 }
 @media(max-width:414px){
     .image{
         width: 25.9rem;
         height: 46.1rem;
     }
+    #boton-consulta {
+        text-align: center;
+        padding: 0px 20px 0px 20px  
+     }
 }
 @media(max-width:375px){
     .image{
