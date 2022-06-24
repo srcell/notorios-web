@@ -14,6 +14,10 @@
     src: url('/fonts/poppins-medium.ttf');
 }
 @font-face {
+    font-family: poppins-extrabolditalic;
+    src: url('/fonts/poppins-extrabolditalic.ttf');
+}
+@font-face {
     font-family: poppins-bolditalic;
     src: url('/fonts/poppins-bolditalic.ttf');
 }
@@ -296,12 +300,9 @@ span{
     }
 }
 
-
-
-
-
-
-
+/* =====================================
+===== MODAL DE CONTANCTO DE FOOTER =====
+========================================*/
 
 .overlay {
 	position: fixed;
@@ -354,8 +355,8 @@ span{
     padding-top: 15px;
 }
 #title-modal-info{
+    font-family:poppins-extrabolditalic;
     padding-bottom: 10px;
-
 }
 #contacto-modal{
     padding-left: 20px;
@@ -427,7 +428,7 @@ span{
 .popup.active {	transform: scale(1); opacity: 1; }
 .popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
 .popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
-.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 0s forwards; }
 
 @keyframes entradaTitulo {
 	from {

@@ -180,9 +180,15 @@ h1{
     padding-top: 13px;
 }
 .texto-redes{
+    font-weight: 500;
     padding-left: 15px;
 }
-
+#subtitle-main-text{
+    font-weight: 500;
+}
+.title-info-redes h4{
+    font-family: poppins-extrabolditalic;
+}
 .overlay {
 	position: fixed;
 	bottom: 0;
@@ -231,11 +237,10 @@ h1{
     width: 30px;
 }
 .mensaje-input{
-    padding-top: 15px;
+    padding-top: 10px;
 }
-#title-modal-info{
-    padding-bottom: 10px;
-
+.mensaje-input p{
+    font-family: poppins-extrabolditalic;
 }
 #contacto-modal{
     padding-left: 20px;
@@ -307,7 +312,7 @@ h1{
 .popup.active {	transform: scale(1); opacity: 1; }
 .popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
 .popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
-.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 0s forwards; }
 
 @keyframes entradaTitulo {
 	from {
