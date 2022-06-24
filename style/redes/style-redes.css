@@ -35,6 +35,16 @@
     padding-top: 300px;
     padding-bottom: 90px;
 }
+.padding-2{
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+h2{
+    font-weight: bold;
+    font-size: 50px;
+    font-family:poppins-bold ;
+}
+
 #main-section{
     background-image: url(/img/background-redes.png);
     background-repeat: no-repeat;
@@ -133,6 +143,7 @@
 
 
 footer{
+    border-top: 1px solid var(--color-white);
     background-color: var(--color-black);
 }
 .main-text-footer{
@@ -203,6 +214,27 @@ h1{
 .overlay.active {
 	visibility: visible;
 }
+
+.phones{
+    padding-left: 5px;
+}
+
+#mas-de{
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.simbolo-mas{
+    font-family: poppins-bold;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 4px 4px  var(--color3);
+}
+.text-simbolo-mas{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
 
 .popup {
     border-bottom:2px solid var(--color-black);
