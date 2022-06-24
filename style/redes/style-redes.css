@@ -125,11 +125,10 @@
 .four-info{
     display: inline;
 } */
-.all-text{
-    display: inline-block;
-}
-.row{
-    display: ;
+
+
+.info-redes{
+    padding-top: 180px;
 }
 
 
@@ -156,16 +155,33 @@ footer{
 }
 
 
-.all-text{
-}
-
 h1{
+    padding-top: 117px;
     font-family: poppins-extrabolditalic;
     font-weight: bold;
 }
 
+/* .linea-h2{
+    display: ;
+} */
 
+.info-redes-col{
+    display: inline-block;
+}
+.info-redes-col img {
+    height: 51px;
+    margin: 5px -11px 10px -24px;
+}
+.title-info-redes{
+    float: right;
+}
 
+#centrar-h4-diseño{
+    padding-top: 13px;
+}
+.texto-redes{
+    padding-left: 15px;
+}
 
 .overlay {
 	position: fixed;
