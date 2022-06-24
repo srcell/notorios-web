@@ -98,6 +98,46 @@
         padding: 0px 20px 0px 20px  
      }
 }
+@media(max-width:390px){
+    .image{
+        width: 23.5rem;
+        height: 42rem;
+    }
+    .consulta {
+        padding-right:0px ;
+    }
+    #prefieres .number {
+        padding: 2px 22px 3px 12px;
+        font-family: poppins-bold;
+        text-align: center;
+    }
+    .main-title-prefieres{
+        padding: 20px 0px 0px 0px;
+    }
+    .title-empezar{
+        padding-right: 0px;
+    }
+    .number {
+        background-color: var(--color3);
+        margin-left: 145px;
+        margin-right: 180px;
+        border-radius: 10px;
+    }
+    #boton-consulta {
+        text-align: center;
+        padding: 0px 20px 0px 20px  
+     }
+     #logo-final img {
+        width:60%;
+    }
+    .bi-x-lg::before {
+        display: none;
+    }
+    #empezar{
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+}
 @media(max-width:375px){
     .image{
         width: 23.5rem;
