@@ -156,10 +156,38 @@
     <footer>
       <div class="container-fluid">
         <div class="main-text-footer">
-          <p class="text-center footer-text">notorios.agency@gmail.com <a href="#"><i class="bi bi-x-lg"></i></a></p>
+          <p class="text-center footer-text">notorios.agency@gmail.com 
+            <a id="btn-abrir-popup" class="btn-abrir-popup" href="#">
+              <i class="bi bi-x-lg"></i>
+            </a></p>
         </div>
       </div>
     </footer>
+
+    <div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+        <div class="contenido-form">
+        <p id="contacto-modal">contacto<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">X</a></p>
+        <div class="row">
+          <div class="col col-3">
+            <img id="icono-logo-modal" src="/img/icono-logo-negro.png" alt="">
+          </div>
+          <div class="col col-3 separador">
+            <img src="/img/linea.png" alt="">
+          </div>
+          <div class="col col-3 mensaje-input">
+            <p id="title-modal-info">By:Notorios@agency.com</p>
+            <form action="">
+              <div class="contenedor-inputs">
+                <input class="datos" type="textarea" placeholder="mensaje...">
+              </div>
+              <!-- <input type="submit" class="btn-submit" value="Suscribirse"> -->
+            </form>
+          </div>
+        </div>
+      </div>
+			</div>
+		</div>
 
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="/js/branding.js"></script>
@@ -193,4 +221,5 @@
       });
       </script>
   </body>
+        <!-- BY: ITALO DAVID RAMOS LING - 969460717 -->
 </html>

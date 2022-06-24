@@ -112,12 +112,12 @@ button:hover{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-img{
+/* img{
     width: 40rem;
     height: 58.6rem;
     padding: 0px 0px 0px 0px;
     object-fit: cover;
-}
+} */
 
 /* img:hover{
     transform: scale(1.1);
@@ -340,3 +340,160 @@ span{
     width: 18%;
 }
 
+
+
+
+
+.overlay {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+}
+
+.overlay.active {
+	visibility: visible;
+}
+
+.popup {
+    border-bottom:2px solid var(--color-black);
+    border-left:2px solid var(--color-black);
+    border-right:2px solid var(--color-black);
+    margin: 0px 70px 100px 0px;
+	background: #F8F8F8;
+    box-shadow: 8px 8px  var(--color3);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	width: 600px;
+	
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+#contacto-modal{
+    border-bottom: 2px solid var(--color-black);
+    border-top:2px solid var(--color-black) ;
+}
+
+#icono-logo-modal{
+    margin: 30px 0px 0px 35px;
+    height: 100px;
+}
+.separador img{
+    width: 30px;
+    height: 156px;
+}
+.separador{
+    margin-top: 10px;
+    width: 30px;
+}
+.mensaje-input{
+    padding-top: 15px;
+}
+#title-modal-info{
+    padding-bottom: 10px;
+
+}
+#contacto-modal{
+    padding-left: 20px;
+}
+.popup .btn-cerrar-popup {
+    border-left: 2px solid var(--color-black);
+    padding: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    float: right;
+    transition: .3s ease all;
+    color: #BBBBBB;
+}
+
+.popup .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+
+.popup h4 {
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs {
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs input {
+    border: 0px ;
+	width: 390px;
+	margin-bottom: 20px;
+    /* margin-right: 50px; */
+	height: 100px;
+	font-size: 18px;
+    background-color: #BBBBBB;
+}
+.popup form .btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+	background: rgba(94,125,227, .9);
+}
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup.active {	transform: scale(1); opacity: 1; }
+.popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
+.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
