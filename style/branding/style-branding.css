@@ -48,7 +48,7 @@ p{
     padding: 50px 0px 0px 100px;
 }
 .title-port{
-    margin-bottom: 110px;
+    margin-bottom: 67px;
 }
 .title-port-sub{
     margin-left: 32px;
@@ -207,9 +207,7 @@ span{
     padding-bottom: 0px;
     }
 }
-.area-black{
-    border: 1px solid purple;
-}
+
 
 
 
@@ -267,10 +265,11 @@ span{
 
 .area-black{
     background-color: var(--color-black) !important;
-    height: 90%;
+    height: 10%;
     width: 100px;
     color: var(--color-white) !important;
     border: 2px solid var(--color-smoke) !important;
+    border-radius: 0px !important;
 }
 .glide__arrows{
     width: 100px;
