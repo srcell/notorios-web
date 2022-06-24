@@ -6,6 +6,8 @@
         height: 67.5rem;
     }
 } */
+@media()
+
 @media(max-width:2560px){
     .image{
         width: 53.3rem;
@@ -92,8 +94,35 @@
 }
 @media(max-width:360px){
     .image{
-        width: 22.5rem;
+        width: 19rem;
         height: 30rem;
     }
 }
-/*RESPONSIVE AREA - END
+/*RESPONSIVE AREA - END*/
+
+@media (max-width: 320px){
+    .consulta {
+        padding-right:0px ;
+    }
+    #prefieres h2 {
+        padding: 2px 22px 3px 12px;
+        font-family: poppins-bold;
+        text-align: center;
+    }
+    .number {
+        background-color: var(--color3);
+        margin-left: 122px;
+        margin-right: 180px;
+        border-radius: 10px;
+    }
+    #boton-consulta {
+        text-align: center;
+        padding: 0px 20px 0px 20px  
+     }
+     #logo-final img {
+        width:60%;
+    }
+    .bi-x-lg::before {
+        display: none;
+    }
+}
