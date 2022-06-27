@@ -1,3 +1,4 @@
+
 @media only screen and (max-width:1440px){
     .all-text-mobile{
         display: block;
@@ -24,12 +25,13 @@
     #phone{
         display: block;
     }
+    
+}
+@media only screen and (max-width:1920px){
     #phone img{
         width: 75%;
     }
-    
 }
-
 
 
 @media (max-width:576px){
