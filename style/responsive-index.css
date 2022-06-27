@@ -7,6 +7,18 @@
     }
 } */
 
+@media(max-width:800px){
+    #redes figure figcaption{
+        display: block;
+    }
+    #bran figure figcaption{
+        display: block;
+    }
+    #alex figure figcaption{
+        display: block;
+    }
+}
+
 @media(max-width:2560px){
     .image{
         width: 53.3rem;
