@@ -260,8 +260,12 @@ h1{
 }
 
 /*FORMULARIO*/
-#formulario p{
-    font-size: 25px;
+
+.texto-boton-env{
+    font-size: 17px;
+    font-family: poppins-semibold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .btn-enviar-form{
     border: 2px solid var(--color-black);
@@ -283,7 +287,9 @@ h1{
 .captcha{
     padding-top: 10px;
 }
-
+.escribenos-formulario{
+    font-size: 25px;
+}
 /***********************************/
 
 
