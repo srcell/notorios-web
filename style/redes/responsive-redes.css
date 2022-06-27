@@ -54,10 +54,35 @@
 
 
 /*FORM*/
-@media(max-width:420px){
-    .img-form img{
-        width: 46%;
-        margin-top: 9%;
+@media(max-width:768px){
+    .img-form img {
+        width: 55%;
+        margin-top: 78%;
         margin-left: 0%;
     }
+
+}
+@media(max-width:530px){
+    .img-form img{
+        display: none;
+    }
+
+}
+@media(max-width:425px){
+    #formulario h1{
+        padding-top: 5px;
+    }
+    .fourThing{
+        padding-bottom: 70px;
+    }
+
+}
+@media(max-width:375px){
+    #formulario h1{
+        padding-top: 5px;
+    }
+    .fourThing{
+        padding-bottom: 70px;
+    }
+
 }
