@@ -7,6 +7,10 @@
 }
 /*FUENTES*/
 @font-face {
+    font-family: poppins-italic;
+    src: url('/fonts/poppins-italic.ttf');
+}
+@font-face {
     font-family: poppins-bold;
     src: url('/fonts/poppins-bold.ttf');
 }
@@ -325,7 +329,11 @@ span{
     background-color: var(--color-white);
 }
 #prefieres h2{
-    font-family: poppins-bold;
+    font-family:poppins-italic;
+}
+#guie{
+    
+    font-family: poppins-bolditalic;
 }
 .title-prefieres{
     font-family: poppins-bolditalic;
