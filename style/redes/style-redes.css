@@ -1,6 +1,7 @@
 :root{
     --color-black: #000000;
     --color-white: #FFFFFF;
+    --color1:#f5f5f5;
     --color2: #e8e8e8;
     --color3: #f0b1d0;
 }
@@ -92,6 +93,7 @@ h2{
 }
 
 .navbar{
+    border-bottom: 1px solid var(--color-black);
     background-color: var(--color-white) !important;
 }
 .nav-item a{
@@ -258,8 +260,28 @@ h1{
 }
 
 /*FORMULARIO*/
-#formulario{
-    height: 1300px;
+#formulario p{
+    font-size: 25px;
+}
+.btn-enviar-form{
+    border: 2px solid var(--color-black);
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+    background-color: var(--color-white);
+}
+.form-control{
+    border: 0px;
+    background-color: var(--color1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img-form img{
+    width: 35%;
+    margin-top: 30%;
+    margin-left: 25%;
+
 }
 
 /***********************************/
