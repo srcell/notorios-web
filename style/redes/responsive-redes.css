@@ -12,6 +12,7 @@
     #phone{
         display: none;
     }
+
 }
 @media only screen and (min-width:1440px){
     .all-text-mobile{
@@ -22,6 +23,9 @@
     }
     #phone{
         display: block;
+    }
+    #phone img{
+        width: 75%;
     }
     
 }
