@@ -267,12 +267,12 @@ h1{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-.btn-enviar-form{
+/* .btn-enviar-form{
     border: 2px solid var(--color-black);
     border-radius: 8px;
     padding: 5px 20px 5px 20px;
     margin-top: 20px;
-}
+} */
 .form-control{
     border: 0px;
     background-color: var(--color1);
