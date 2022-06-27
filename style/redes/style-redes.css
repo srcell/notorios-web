@@ -49,10 +49,10 @@ h2{
     background-image: url(/img/background-redes.png);
     background-repeat: no-repeat;
 }
-.info{    
+/* .info{    
     width: 1500px;
     height: 791px;
-}
+} */
 
 ::-webkit-scrollbar{
     border: 0px;
@@ -129,17 +129,18 @@ h2{
 }
 
 
-/* .gestion{
+.gestion{
     display: inline;
 }
 .four-info{
-    display: inline;
-} */
-
-
-.info-redes{
-    padding-top: 180px;
+    padding-top: 100px;
+    padding-bottom: 35px;
 }
+
+
+/* .info-redes{
+    padding-top: 180px;
+} */
 
 
 footer{
@@ -166,7 +167,7 @@ footer{
 
 
 h1{
-    padding-top: 117px;
+    padding-top: 74px;
     font-family: poppins-extrabolditalic;
     font-weight: bold;
 }
@@ -180,7 +181,7 @@ h1{
 }
 .info-redes-col img {
     height: 51px;
-    margin: 5px -11px 10px -24px;
+    margin: -39px -17px -70px -35px;
 }
 .title-info-redes{
     float: right;
@@ -191,7 +192,6 @@ h1{
 }
 .texto-redes{
     font-weight: 500;
-    padding-left: 15px;
 }
 #subtitle-main-text{
     font-weight: 500;
@@ -233,6 +233,20 @@ h1{
     margin: 0px 0px 0px 0px;
 }
 
+/*VERSION MOBILE*/
+.cont-mobile{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+#title-mobile{
+    padding-top: 100px;
+}
+.all-text-mobile{
+    text-align: center;
+}
+
+
+/***********************************/
 
 
 .popup {

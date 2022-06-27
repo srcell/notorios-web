@@ -46,9 +46,11 @@ h3{
     margin: 10px 0px 10px 0px;
 }
 h4{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
 }
 a{
+    color: inherit;
+    text-decoration: none;
     margin: 0px;
     font-size: 15px;
     font-weight: bold;
