@@ -281,7 +281,9 @@ h1{
     width: 35%;
     margin-top: 30%;
     margin-left: 25%;
-
+}
+.captcha{
+    padding-top: 10px;
 }
 
 /***********************************/
