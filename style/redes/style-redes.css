@@ -282,6 +282,7 @@ h1{
 .form-group button{
     padding: 5px 30px 5px 30px;
     border-radius: 10px;
+    background-color: var(--color-white);
 }
 .form-group button p{
     color: var(--color-black);
