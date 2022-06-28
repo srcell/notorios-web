@@ -40,7 +40,7 @@ $(function(){
        var rutaImagen = $(this).find("img").attr("src");
 
        $(this).find("figcaption").html("<div><h1 style='color: white;'>" + nombre + "</h1></div>");
-       $(this).find("figcaption div").append("<button type='button'; onclick='javascript:cambiar_redes();'><a>VER MÁS</a></button>");
+       $(this).find("figcaption div").append("<button type='button'; onclick='javascript:cambiar_redes();'><a style='color: black;'>VER MÁS</a></button>");
    });
 
     //BRANDING REDIRECCIONAMIENTO
