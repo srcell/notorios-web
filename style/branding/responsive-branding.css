@@ -70,7 +70,7 @@
 @media(max-width:360px){
     .glide__slide img{
     width: 22.5rem;
-    content: url(/img/branding.png);
+    content: url(/img/portada-rhc-cuadrado.png);
     object-fit: cover;
     padding-top:0px;
     padding-bottom: 0px;
@@ -272,7 +272,7 @@
         background-repeat: no-repeat;
         background-size: 18%;
         background-position: 83%;
-        padding-top:57px ;
+        padding-top:15px ;
     }
     #investigacion p{
         padding-top: 0px;
