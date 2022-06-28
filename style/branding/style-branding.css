@@ -142,6 +142,14 @@ button{
     box-shadow: 0px 0px 0px #888888, -0.1em 1px 20px #888888;
 
 }
+.images-info-mobile img{
+    margin-top: 30px;
+    width: 55%;
+    border-radius: 10px;
+    /* box-shadow: 5px 10px 18px #888888; */
+    box-shadow: 0px 0px 0px #888888, -0.1em 1px 20px #888888;
+
+}
 #boton-consulta{
     padding: 6px 180px 6px 180px;
     background-color: var(--color-white);
