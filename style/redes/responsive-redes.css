@@ -89,6 +89,13 @@
     #main-section{
         padding: 0px;
     }
+    #title-mobile {
+        padding-top: 50px;
+    }
+    .padding-2 {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
 
 }
 @media(max-width:530px){
