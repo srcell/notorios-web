@@ -14,6 +14,10 @@
     src: url('/fonts/poppins-medium.ttf');
 }
 @font-face {
+    font-family: poppins-bold;
+    src: url('/fonts/poppins-bold.ttf');
+}
+@font-face {
     font-family: poppins-extrabolditalic;
     src: url('/fonts/poppins-extrabolditalic.ttf');
 }
@@ -36,6 +40,17 @@ p{
     margin: 0px 0px 0px 0px;
     color: var(--color-black);
     font-weight: bold;
+}
+button{
+    transition: 0.5s;
+}
+.padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.padding-2{
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 .footer-text{
     color: var(--color-white);
@@ -64,6 +79,80 @@ p{
     margin: 220px 0px 220px 0px;
 }
 /*TEXTO ARRIBA BRANDING - END*/
+/*TEXTO ABAJO BRANDING*/
+#investigacion{
+    margin-left: 197px;
+    margin-right: 5px;
+    background-image: url(/img/images-info-branding/1.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 67%;
+}
+.row h2{
+    padding-bottom: 40px;
+}
+#conclusiones{
+    margin-right: 86px;
+    background-image: url(/img/images-info-branding/2.png);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: 90%;
+}
+#implementacion{
+    background-image: url(/img/images-info-branding/3.png);
+    background-repeat: no-repeat;
+    background-size: 32%;
+    background-position: 86%;
+}
+#implementacion h2{
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+#info-branding-three{
+    background-color: var(--color-white);
+}
+#info-branding-three h1{
+    font-family:  poppins-bold;
+}
+#info-branding-three h2{
+    font-weight: bold;
+    font-style: italic;
+}
+#info-branding-three p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.y-brangind-three{
+    color: var(--color-black);
+    font-weight: lighter;
+    
+}
+#ruta-three{
+    color: var(--color-black);
+}
+.images-info{
+    margin-left: 150px;
+}
+.images-info img{
+    margin-top: 30px;
+    width: 55%;
+    border-radius: 10px;
+    /* box-shadow: 5px 10px 18px #888888; */
+    box-shadow: 0px 0px 0px #888888, -0.1em 1px 20px #888888;
+
+}
+#boton-consulta{
+    padding: 6px 180px 6px 180px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    border-radius: 13px;
+}
+#boton-consulta:hover{
+    transform: scale(1.1);
+}
+
+/*TEXTO ABAJO BRANDING - END*/
 .title-port{
     margin-bottom: 67px;
 }

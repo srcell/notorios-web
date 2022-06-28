@@ -1,4 +1,6 @@
+@media (max-width:1440px){
 
+}
 @media only screen and (max-width:1440px){
     .all-text-mobile{
         display: block;
@@ -13,8 +15,16 @@
     #phone{
         display: none;
     }
+    #main-section{
+        background-size: 40%;
+        background-position: 93%;
+    }
+    #main-section{
+        background-image: none;
+    }
 
 }
+
 @media only screen and (min-width:1440px){
     .all-text-mobile{
         display: none;
@@ -25,11 +35,19 @@
     #phone{
         display: block;
     }
-    
+    #main-section{
+        background-size: 40%;
+        background-position: 93%;
+    }
+
 }
-@media only screen and (max-width:1920px){
+@media (max-width:1920px){
     #phone img{
         width: 75%;
+    }
+    #main-section{
+        background-size: 30%;
+        background-position: 85%;
     }
 }
 
@@ -54,6 +72,14 @@
 
 
 /*FORM*/
+@media(max-width:1024px){
+    .img-form img {
+        width: 55%;
+        margin-top: 52%;
+        margin-left: 0%;
+    }
+
+}
 @media(max-width:768px){
     .img-form img {
         width: 55%;

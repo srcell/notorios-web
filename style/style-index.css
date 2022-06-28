@@ -55,6 +55,14 @@ a{
     font-size: 15px;
     font-weight: bold;
 }
+a:hover{
+    color:var(--color3) ;
+    transition: 0.5s;
+}
+p:hover{
+    color:var(--color3) ;
+    transition: 0.5s;
+}
 button{
     border: 0px;
     padding: 10px 15px 10px 15px;

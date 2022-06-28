@@ -4,6 +4,7 @@
     --color1:#f5f5f5;
     --color2: #e8e8e8;
     --color3: #f0b1d0;
+    --color4: #e7e7e7;
 }
 @font-face {
     font-family: poppins-semibold;
@@ -47,8 +48,13 @@ h2{
 }
 
 #main-section{
-    background-image: url(/img/background-redes.png);
+    padding: 100px 0px 100px 0px;
+    background:url(/img/04.png) ;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 78%;
+    background-color: var(--color4);
 }
 /* .info{    
     width: 1500px;
