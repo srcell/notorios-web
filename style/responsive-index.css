@@ -317,10 +317,12 @@
         height: 32rem;
     }
     .consulta {
-        padding-right:0px ;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
     #prefieres h2 {
-        padding: 30px 22px 3px 12px;
+        padding: 45px 22px 3px 12px;
         font-family: poppins-bold;
         text-align: center;
     }
