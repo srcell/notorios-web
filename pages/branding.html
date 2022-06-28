@@ -17,9 +17,39 @@
     <div class="loader"></div>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
-        </button>
+        <div class="offcanvar-mobile">
+          <button class="boton-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            <span><i class="bi bi-list"></i></span>
+          </button>
+        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">REDIRECCIONES</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav navbar-nav-offcanvas">
+                  <div class="sepa">
+                    <li class="nav-item color-a-offcanvas">
+                      <a class="nav-link"  href="/pages/redes.html">Redes sociales</a>
+                    </li>
+                  </div>
+      
+                  <div class="sepa">
+                    <li class="nav-item color-a-offcanvas">
+                      <a id="active" class="nav-link" aria-current="page" href="/pages/branding.html">Branding</a>
+                    </li>
+                  </div>
+      
+                  <div class="sepa">
+                    <li class="nav-item color-a-offcanvas">
+                      <a class="nav-link" href="/pages/alex-dey.html">Alex Dey</a>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+          </div>
+        </div>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <div class="sepa-one">
@@ -48,7 +78,7 @@
     <div class="container">
       <div class="introduction">
         <div id="info-branding" class="row">
-          <div class="col-6 info-branding-title">        
+          <div class="col-xxl-6 col-12 info-branding-title">        
             <h4>
               Branding
             </h4>
@@ -58,7 +88,7 @@
              diferenciada <span class="negrita-des-intro">con sentido único.</span>
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-xxl-6 col-12">
             <div class="gif-title-branding">
               <img src="/img/gifs-branding/gif-branding-1.gif" alt="">
             </div>
@@ -165,10 +195,10 @@
       </div>
 
       <section id="info-branding-three">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
             <h1 id="ruta-three" class="text-center padding-2">LA RUTA</h1>
-            <div id="investigacion" class="col-3 padding">
+            <div id="investigacion" class="col-4 padding">
               <h2>INVESTIGACIÓN <br> 
                 <span class="y-brangind-three">Y</span> ANÁLISIS
               </h2>
@@ -176,7 +206,7 @@
                 la escencia de tu negocio así <br>
                 como tus competidores.</P>
             </div>
-            <div id="conclusiones" class="col-3 padding">
+            <div id="conclusiones" class="col-4 padding">
               <h2>CONCLUSIONES<span class="y-brangind-three"> Y</span> <br> 
                 PROPUESTAS VISUALES
               </h2>
@@ -185,20 +215,20 @@
                 visuales que nos darán ruta para el <br>
                 diseño de la marca</p>
             </div>
-            <div id="implementacion" class="col-3 padding">
+            <div id="implementacion" class="col-4 padding">
               <h2>IMPLEMENTACIÓN
               </h2>
               <p>Trabajaremos el diseño del logo <br>
                  y la implementación total de tu <br>
                  marca.</p>
             </div>
-            <div class="col-3 images-info">
+            <div class="col-4 images-info">
               <img src="/img/images-info-branding/2.1.PNG" alt="">
             </div>
-            <div class="col-3 images-info">              
+            <div class="col-4 images-info">              
               <img src="/img/images-info-branding/1.1.PNG" alt="">
             </div>
-            <div class="col-3 images-info">
+            <div class="col-4 images-info">
               <img src="/img/images-info-branding/3.1.PNG" alt="">
             </div>
           </div>

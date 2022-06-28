@@ -81,8 +81,8 @@ button{
 /*TEXTO ARRIBA BRANDING - END*/
 /*TEXTO ABAJO BRANDING*/
 #investigacion{
-    margin-left: 197px;
-    margin-right: 5px;
+    /* margin-left: 197px;
+    margin-right: 5px; */
     background-image: url(/img/images-info-branding/1.png);
     background-repeat: no-repeat;
     background-size: 25%;
@@ -92,7 +92,7 @@ button{
     padding-bottom: 40px;
 }
 #conclusiones{
-    margin-right: 86px;
+    /* margin-right: 86px; */
     background-image: url(/img/images-info-branding/2.png);
     background-repeat: no-repeat;
     background-size: 33%;
@@ -131,9 +131,9 @@ button{
 #ruta-three{
     color: var(--color-black);
 }
-.images-info{
+/* .images-info{
     margin-left: 150px;
-}
+} */
 .images-info img{
     margin-top: 30px;
     width: 55%;
@@ -201,6 +201,15 @@ button{
     width: 100%;
 }
 
+.boton-offcanvas{
+    border: 0px;
+    background: none;
+}
+.boton-offcanvas span i{
+    color: var(--color-white);
+}
+
+
 
 .content-portfolio{
     background-color: var(--color3);
@@ -219,6 +228,9 @@ button{
 .nav-item a{
     font-family:poppins-medium;
     color: var(--color2);
+}
+.color-a-offcanvas a{
+    color: var(--color-black);
 }
 .nav-link{
     color: var(--color-black);
@@ -294,25 +306,7 @@ span{
     width: 60rem;
 }
 
-@media(max-width:1440px){
-    .glide__slide img{
-        width: 43.5rem;
-        padding-top:130px;
-        padding-bottom: 210px;
-    }
-    .glide__arrows{
-        display: none;
-    }
-}
-@media(max-width:360px){
-    .glide__slide img{
-    width: 22.5rem;
-    content: url(/img/branding.png);
-    object-fit: cover;
-    padding-top:0px;
-    padding-bottom: 0px;
-    }
-}
+
 
 
 
@@ -412,11 +406,6 @@ span{
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
 
 /* =====================================
 ===== MODAL DE CONTANCTO DE FOOTER =====

@@ -1,0 +1,81 @@
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-smoke: #515151;
+    --color2: #e8e8e8;
+    --color3: #f0b1d0;
+}
+
+
+
+@media (max-width:2560px){
+    .navbar-nav-offcanvas{
+        display: none;
+    }
+    .offcanvar-mobile{
+        display: none;
+    }
+}
+@media (max-width:1920px){
+    .navbar-nav-offcanvas{
+        display: none;
+    }
+    .offcanvar-mobile{
+        display: none;
+    }
+}
+@media(max-width:1440px){
+    .glide__slide img{
+        width: 43.5rem;
+        padding-top:0px;
+        padding-bottom: 50px;
+    }
+    .glide__arrows{
+        display: none;
+    }
+    .title-port-sub {
+        margin-left: 39px;
+        margin-right: 510px;
+}
+@media(max-width:992px){
+    .offcanvar-mobile{
+        display: block;
+    }
+    .navbar-nav-offcanvas{
+        display: block;
+    }
+    .offcanvas{
+        max-width: 76%;
+    }
+    .offcanvas-body .sepa{
+        padding: 0px;
+    }
+    .offcanvas-backdrop.show {
+        opacity: .6;
+    }
+    .navbar-brand {
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+@media(max-width:360px){
+    .glide__slide img{
+    width: 22.5rem;
+    content: url(/img/branding.png);
+    object-fit: cover;
+    padding-top:0px;
+    padding-bottom: 0px;
+    }
+}
+/*INFO BRANDING*/
+@media (max-width:1440px){
+    #info-branding{
+        margin: 136px 0px 136px 0px;
+    }
+}
+

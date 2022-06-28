@@ -1,5 +1,10 @@
-@media (max-width:1440px){
-
+@media (max-width:2560px){
+    .navbar-nav-offcanvas{
+        display: none;
+    }
+    .offcanvar-mobile{
+        display: none;
+    }
 }
 @media only screen and (max-width:1440px){
     .all-text-mobile{
