@@ -306,6 +306,13 @@ h1{
 .escribenos-formulario{
     font-size: 25px;
 }
+.boton-offcanvas{
+    border: 0px;
+    background: none;
+}
+.boton-offcanvas span i{
+    color: var(--color-black);
+}
 /***********************************/
 
 

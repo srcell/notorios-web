@@ -109,6 +109,16 @@
     .navbar-nav-offcanvas{
         display: block;
     }
+    .offcanvas{
+        max-width: 76%;
+    }
+    .offcanvas-body .sepa{
+        padding: 0px;
+    }
+    .offcanvas-backdrop.show {
+        opacity: .6;
+        
+    }
 }
 @media(max-width:530px){
     .img-form img{
@@ -135,6 +145,6 @@
     .navbar-brand {
         padding-top: 10px;
         padding-bottom: 15px;
-        padding-right: 0px;
+        padding-right: 25px;
     }
 }
