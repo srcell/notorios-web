@@ -41,12 +41,29 @@ p{
     color: var(--color-white);
 }
 
+/*TEXTO ARRIBA BRANDING*/
+.gif-title-branding img{
+    width: 100%;
+}
+.info-branding-title{
+    margin-top: 65px;
+}
+.info-branding-title h4{
+    font-size: 53px;
+    margin-bottom:60px;
+}
 .des-intro{
+    font-weight: 400;
+    font-size: 18   px;
     color: var(--color-white);
 }
-.introduction{
-    padding: 50px 0px 0px 100px;
+.negrita-des-intro{
+    font-weight: bold;
 }
+#info-branding {
+    margin: 220px 0px 220px 0px;
+}
+/*TEXTO ARRIBA BRANDING - END*/
 .title-port{
     margin-bottom: 67px;
 }
