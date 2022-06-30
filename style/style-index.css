@@ -378,6 +378,7 @@ span{
     font-family: poppins-bolditalic;
 }
 #boton-consulta{
+    color: var(--color-black);
     padding: 0px 180px 0px 180px;
     background-color: var(--color-white);
     border: 1px solid var(--color-black);
