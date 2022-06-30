@@ -18,6 +18,9 @@
     #info-branding-mobile{
         display: none;
     }
+    #logo-mobile{
+        display: none;
+    }
 }
 @media (max-width:1920px){
     .navbar-nav-offcanvas{
@@ -29,6 +32,7 @@
     #glide-mobile-arrows{
         display: none;
     }
+
 }
 @media(max-width:1440px){
     .glide__slide img{
@@ -168,6 +172,17 @@
     }
 }
 @media (max-width:768px){
+    #logo-web{
+        display: none;
+    }
+    #logo-mobile{
+        display: block;
+    }
+    #logo-mobile img{
+        width: 10%;
+        float: right;
+         margin-top: -62px;
+    }
     .title-port-sub {
         margin-left: 8px;
         margin-right: 530px;
@@ -176,7 +191,7 @@
         width: 48.5rem;
     }
     .gif-title-branding img {
-        width: 50%;
+        width: 90%;
         margin-top: 50px;
     }
     #glide-mobile-arrows{
@@ -276,8 +291,10 @@
     #info-branding{
         display: none;
     }
-    .gif-title-branding img {
-        width: 100%;
+    #logo-mobile img {
+        width: 17%;
+        float: right;
+        margin-top: -57px;
     }
     .info-branding-title {
         margin-top: 40px;
@@ -414,6 +431,11 @@
     }
 }
 @media (max-width: 320px){
+    #logo-mobile img {
+        width: 19%;
+        float: right;
+        margin-top: -52px;
+    }
     .glide__slide img {
         padding-left: 3px;
         width: 20rem;
