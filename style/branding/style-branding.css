@@ -109,6 +109,7 @@ button{
 }
 
 #info-branding-three{
+    padding-bottom: 80px;
     background-color: var(--color-white);
 }
 #info-branding-three h1{
@@ -269,6 +270,9 @@ button{
     color: var(--color3) !important;
 }
 
+footer{
+    background-color: var(--color-black);
+}
 .main-text-footer{
     border-top: 1px solid var(--color2);
     padding-top: 15px;

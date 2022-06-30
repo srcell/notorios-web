@@ -11,6 +11,10 @@
     src: url('/fonts/poppins-italic.ttf');
 }
 @font-face {
+    font-family: poppins-medium;
+    src: url('/fonts/poppins-medium.ttf');
+}
+@font-face {
     font-family: poppins-bold;
     src: url('/fonts/poppins-bold.ttf');
 }
@@ -296,10 +300,14 @@ footer{
 .main-text-footer{
     padding-top: 10px;
     padding-bottom: 5px;
-    color: var(--color-white);
-    font-family: poppins-medium;
-    font-size: 20px;
 }
+.main-text-footer a{
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins-medium;
+}
+
 .bi{
     float: right;
     font-size: 25px;
