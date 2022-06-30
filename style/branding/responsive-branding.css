@@ -341,6 +341,7 @@
 }
 @media (max-width: 320px){
     .glide__slide img {
+        padding-left: 10px;
     width: 20rem;
     }
     .title-port-sub {
