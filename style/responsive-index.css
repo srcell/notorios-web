@@ -141,7 +141,7 @@
 @media(max-width:425px){
     .image{
         width: 25.9rem;
-        height: 46.1rem;
+        height: 41.1rem;
     }
      .consulta {
         padding-right:0px ;
@@ -273,7 +273,7 @@
 @media(max-width:375px){
     .image{
         width: 23.5rem;
-        height: 42rem;
+        height: 39rem;
     }
     .consulta {
         padding-right:0px ;
