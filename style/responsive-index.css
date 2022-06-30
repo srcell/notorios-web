@@ -159,6 +159,9 @@
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px 0px;
     }
+    #alex-mobile{
+        display: none;
+    }
 }
 @media(max-width:410px){
     .image{
