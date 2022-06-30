@@ -372,14 +372,33 @@
     }
 }
 @media(max-width:425px){
-    .glide__slide img{
-    width: 26.5rem;
-    content: url(/img/portada-rhc-cuadrado.png);
-    object-fit: cover;
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-left: 3px;
-    }
+    #urimare-square img{
+        content: url(/img/square-photos/urimare-square.png);
+        }
+    #thc-square img{
+        content: url(/img/square-photos/portada-rhc-square.png);
+        }
+    #cast-square img{
+        content: url(/img/square-photos/cast-square.png);
+        }
+    #naito-square img{
+        content: url(/img/square-photos/naito-square.png);
+        }
+    #ohmiodio-square img{
+        content: url(/img/square-photos/oh-mio-dio-square.png);
+        }
+    #inedo-square img{
+        content: url(/img/square-photos/inedo-square.png);
+        }
+    #marovan-square img{
+        content: url(/img/square-photos/marovan-square.png);
+        }
+    #maribel-square img{
+        content: url(/img/square-photos/maribel-square.png);
+        }
+    #yeeba-square img{
+        content: url(/img/square-photos/yeeba-square.png);
+        }
     .info-branding-title h4{
         font-size: 42px;
     }
