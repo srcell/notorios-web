@@ -67,15 +67,6 @@
         width: 100%;
     }
 }
-@media(max-width:360px){
-    .glide__slide img{
-    width: 22.5rem;
-    content: url(/img/portada-rhc-cuadrado.png);
-    object-fit: cover;
-    padding-top:0px;
-    padding-bottom: 0px;
-    }
-}
 
 /*INFO BRANDING*/
 @media (max-width:1440px){
@@ -334,8 +325,26 @@
         padding-top: 55px;
     }
 }
+@media(max-width:425px){
+    .glide__slide img{
+    width: 26.5rem;
+    content: url(/img/portada-rhc-cuadrado.png);
+    object-fit: cover;
+    padding-top:0px;
+    padding-bottom: 0px;
+    }
+}
+@media (max-width: 375px){
+    .glide__slide img {
+    width: 23.5rem;
+    }
+}
 @media (max-width: 320px){
     .glide__slide img {
     width: 20rem;
+    }
+    .title-port-sub {
+        margin-left: 10px;
+        margin-right: 190px;
     }
 }
