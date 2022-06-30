@@ -322,7 +322,7 @@ span{
 }
 
 #guie{
-    color: var(--color-smoke);
+    color: var(--color-black);
     font-weight: bold;
 }
 .number{
