@@ -44,6 +44,10 @@
         background-size: 40%;
         background-position: 93%;
     }
+    .four-info {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
 
 }
 @media (max-width:1920px){
