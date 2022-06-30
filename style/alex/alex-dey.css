@@ -2,8 +2,12 @@
     --color-black: #000000;
     --color-white: #FFFFFF;
     --color-smoke: #515151;
+    --color1:#f5f5f5;
     --color2: #e8e8e8;
     --color3: #f0b1d0;
+    --color4: #e0caa3;
+    --color5: #e7e7e7;
+
 }
 @font-face {
     font-family: poppins-semibold;
@@ -26,10 +30,86 @@
     src: url('/fonts/poppins-bolditalic.ttf');
 }
 
-#alex{
-    background-color: var(--color-white);
-    height: 1000px;
+/*PADDING*/
+.padding{
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
+/*PADDING-END*/
+
+#alex{
+    background-color: var(--color-black);
+    
+}
+#alex img{
+    width: 85%;
+}
+#alex h1{
+    color: var(--color-white);
+}
+#alex p{
+    color: var(--color-white);
+}
+.text-alex{
+    margin-top: 100px;
+}
+
+/*INSPIRACIÓN*/
+.title-insp{
+    border: 6px solid var(--color4);
+}
+.name-alex{
+    border: 6px solid var(--color-white );
+    background-color: var(--color-white);
+    margin: -22px 500px 0px 581px;
+    position: absolute;
+}
+.title-insp{
+    margin: 50px 0px 0px 0px;
+}
+/*INSPIRACIÓN -- END*/
+
+/*FORMULARIO*/
+.texto-boton-env{
+    font-size: 17px;
+    font-family: poppins-semibold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+/* .btn-enviar-form{
+    border: 2px solid var(--color-black);
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+} */
+.form-group button{
+    margin-top: 15px;
+    border: 1px solid var(--color-black);
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+}
+.form-group button p{
+    color: var(--color-black);
+}
+.form-control{
+    border: 0px;
+    background-color: var(--color1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img-form img{
+    width: 35%;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+.captcha{
+    padding-top: 10px;
+}
+.escribenos-formulario{
+    font-size: 25px;
+}
+/*FORMULARIO - END*/
 
 
 .navbar .navbar-nav .nav-item{

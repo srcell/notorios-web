@@ -74,15 +74,112 @@
 
 
       <section id="alex">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <div class="col-6">
                     <img src="/img/alex-dey/alex-dey.png" alt="">
                 </div>
-                <div class="col"></div>
+                <div class="col-6">
+                        <div class="text-alex">
+                            <h1>Lorem ipsum dolor sit, amet consectetur </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quibusdam corporis dolores nesciunt! Nemo eligendi fugiat
+                                quisquam non tempore sint modi deleniti. Nostrum ipsum atque 
+                                repellat quia provident, praesentium accusamus quaerat accusantium
+                                nemo? Labore itaque ex dolore sint, placeat optio et quae vero?</p>
+                        </div>
+                </div>
             </div>
         </div>
       </section>
+
+      <section id="explicacion">
+        <div class="container main-explicacion padding">
+            <div class="name-alex text-center">
+                <h4>ALEX DEY</h4>
+            </div>
+            <div class="title-insp text-center">
+                <h1>EL FRACASO DUELE MÁS QUE LA DISCIPLINA</h1>
+            </div>
+        </div>
+      </section>
+
+      <section id="image-alex">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/img/alex-dey/image-alex-bw.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/img/alex-dey/image-alex-bw.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/img/alex-dey/image-alex-bw.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/img/alex-dey/image-alex-bw.png" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="video">
+        <div class="container-fluid">
+            <div class="title text-center">
+                <h1>CONFERENCIA</h1>
+            </div>
+            <div class="video-alex text-center">
+                <iframe title="vimeo-player" src="https://player.vimeo.com/video/725805548?h=133379360b" 
+                width="1440" height="900" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+      </section>
+
+      <section id="formulario">
+        <div class="container">
+        <div class="row padding-2">
+        <div class="col-sm-6">
+          <h1>¿TIENES ALGUNA CONSULTA?</h1>
+          <p class="escribenos-formulario">ESCRÍBENOS</p>
+          <div id="cnt_form">
+            <form data-netlify-recaptcha="true" 
+                  netlify-honeypot="bot-field" 
+                  action="/pages/redes.html" 
+                  id="contact-form" 
+                  class="contact" 
+                  name="contact"
+                  method="post" 
+                  data-netlify="true">
+              <div class="form-group">
+              <input type="text" name="nombre" class="form-control name-fiel" required="required" placeholder="Nombres">
+              </div>
+              <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="tel" name="telefono" class="form-control name-fiel" required="required" placeholder="Telefóno">
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <input type="email" name="email" class="form-control name-fiel" required="required" placeholder="Correo Electrónico">
+                  </div>
+              </div>
+              <div class="form-group">
+                <textarea name="mensaje" id="message" required="required" class="form-control" rows="7" placeholder="Mensaje"></textarea>
+              </div>
+              <div class="captcha" data-netlify-recaptcha="true"></div>
+              <div class="form-group">
+                <button type="submit"><p class="texto-boton-env">Enviar</p></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-6 text-center">
+          <div class="container img-form">
+            <img src="/img/icono-logo-negro.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
