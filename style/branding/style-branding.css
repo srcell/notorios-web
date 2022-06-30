@@ -157,6 +157,7 @@ button{
 }
 #boton-consulta h3{
     margin: 0px;
+    color: var(--color-black);
 }
 #boton-consulta:hover{
     transform: scale(1.1);

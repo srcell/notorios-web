@@ -254,7 +254,7 @@
     }
     .title-port-sub {
         margin-left: 15px;
-        margin-right: 260px;
+        margin-right: 210px;
     }
     .navbar-brand {
         padding-top: 5px;
@@ -333,6 +333,9 @@
     padding-top:0px;
     padding-bottom: 0px;
     }
+    .info-branding-title h4{
+        font-size: 42px;
+    }
 }
 @media (max-width: 375px){
     .glide__slide img {
@@ -345,7 +348,7 @@
     width: 20rem;
     }
     .title-port-sub {
-        margin-left: 10px;
-        margin-right: 190px;
+        margin-left: 20px;
+        margin-right: 145px;
     }
 }
