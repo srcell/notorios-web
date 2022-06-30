@@ -27,16 +27,11 @@
         margin: 28px 0px 0px 38%;
     }
     iframe {
-        width: 80%;
+        width: 90%;
     }
-    .color-bg{
-        height: 62%;
-        width: 100%;
-        position: absolute;
-        background-color: var(--color4);
+    .color-video{
+        background-color: rgba(224, 202, 163, 0.1);
         padding: 0px;
-        margin-top: 12%;
-        z-index: -1;
     }
 }
 @media(max-width:992px){

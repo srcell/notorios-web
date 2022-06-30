@@ -70,19 +70,14 @@
 
 /*INSPIRACIÓN -- END*/
 /*VIDEO*/
-.color-bg{
-    height: 71%;
-    width: 100%;
-    position: absolute;
-    background-color: var(--color4);
+.color-video{
+    background-color: rgba(224, 202, 163, 0.1);
     padding: 0px;
-    margin-top: 6%;
-    z-index: -1;
 }
 iframe{
-    width: 10%;
+    width: 90%;
 }
-.video-alex{
+.color-video{
     margin: 0px;
     padding: 0px;
 }
