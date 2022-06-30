@@ -162,6 +162,10 @@
     .btn-abrir-popup{
         display: none;
     }
+    .info-branding-title {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 }
 @media (max-width:768px){
     .title-port-sub {
@@ -258,6 +262,10 @@
         /* transform: translateY(-50%); */
         /* line-height: 1; */
     }
+    .info-branding-title {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
     
 }
 
@@ -288,7 +296,7 @@
     #investigacion{
         background-image: url(/img/images-info-branding/1.png);
         background-repeat: no-repeat;
-        background-size: 18%;
+        background-size: 12%;
         background-position: 83%;
         padding-top:15px ;
     }
@@ -353,6 +361,7 @@
     object-fit: cover;
     padding-top:0px;
     padding-bottom: 0px;
+    padding-left: 3px;
     }
     .info-branding-title h4{
         font-size: 42px;
@@ -406,7 +415,7 @@
 }
 @media (max-width: 320px){
     .glide__slide img {
-        padding-left: 4px;
+        padding-left: 3px;
         width: 20rem;
     }
     .title-port-sub {
