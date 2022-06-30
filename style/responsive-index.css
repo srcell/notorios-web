@@ -17,6 +17,9 @@
     #alex figure figcaption{
         display: block;
     }
+    #alex-mobile figure figcaption{
+        display: block;
+    }
 }
 
 @media(max-width:2560px){
@@ -162,8 +165,11 @@
         width: 24.5rem;
         height: 39rem;
     }
+    #alex{
+        display: none;
+    }
     .consulta {
-        padding-right:0px ;
+        padding: 20px 0px 40px 0px;
     }
     #prefieres .number {
         padding: 2px 22px 3px 12px;

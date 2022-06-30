@@ -83,7 +83,30 @@ $(function(){
           $(this).find("figcaption").html("<div><h1 style='color: white;'>" + nombre + "</h1></div>");
           $(this).find("figcaption div").append("<button type='button'; onclick='javascript:cambiar_alex();'><a style='color: black;'>VER MÁS</a></button>");
       });
+      $("#alex-mobile figure").append("<figcaption>");
+        
+        $("#alex-mobile figure").mouseenter(function(){
+            $(this).find("figcaption").stop().fadeIn("slow");
+        });
+
+        $("#alex-mobile figure").mouseleave(function(){
+            $(this).find("figcaption").stop().fadeOut("slow");
+        });
+
+        $("#alex-mobile figure").each(function(){
+            var nombre = $(this).find("img").attr("title");
+        //   console.log(nombre);
+            var rutaImagen = $(this).find("img").attr("src");
+
+            $(this).find("figcaption").html("<div><h1 style='color: white;'>" + nombre + "</h1></div>");
+            $(this).find("figcaption div").append("<button type='button'; onclick='javascript:cambiar_alex();'><a style='color: black;'>VER MÁS</a></button>");
+        });
 });
+
+    //ALEX MOBILE
+
+
+
 
 function cambiar_branding(){
     location.href="/pages/branding.html"

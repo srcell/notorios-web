@@ -259,6 +259,34 @@ cursor: pointer;
 #alex figure figcaption div i{
     cursor: pointer;
 }
+
+/*************************************************************/
+
+#alex-mobile{
+    background-color: var(--color4);
+    color: var(--color-blanco);
+}
+#alex-mobile figure{
+    position: relative;
+} 
+#alex-mobile figure figcaption{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+#alex-mobile figure figcaption div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#alex-mobile figure figcaption div i{
+    cursor: pointer;
+}
 /*************************************************************/
 
 footer{
