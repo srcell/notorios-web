@@ -1,0 +1,79 @@
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-smoke: #515151;
+    --color2: #e8e8e8;
+    --color3: #f0b1d0;
+}
+@media (max-width:2560px){
+    .navbar-nav-offcanvas{
+        display: none;
+    }
+    .offcanvar-mobile{
+        display: none;
+    }
+    #logo-mobile{
+        display: none;
+    }
+}
+
+@media(max-width:1920px){
+    .offcanvar-mobile{
+        display: none;
+    }
+}
+@media(max-width:992px){
+    .offcanvar-mobile{
+        display: block;
+    }
+    .navbar-nav-offcanvas{
+        display: block;
+    }
+    .offcanvas{
+        max-width: 76%;
+    }
+    .offcanvas-body .sepa{
+        padding: 0px;
+    }
+    .offcanvas-backdrop.show {
+        opacity: .6;
+    }
+    .navbar-brand {
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+}
+@media (max-width:768px){
+    #logo-web{
+        display: none;
+    }
+    #logo-mobile{
+        display: block;
+    }
+    #logo-mobile img{
+        width: 10%;
+        float: right;
+         margin-top: -62px;
+    }
+}
+@media(max-width:425px){
+    .navbar-brand {
+        padding-top: 5px;
+    }
+    .glide__slide img {
+        width: 26.5rem
+    }
+    #logo-mobile img {
+        width: 17%;
+        float: right;
+        margin-top: -57px;
+    }
+}
+    
+@media (max-width: 320px){
+    #logo-mobile img {
+        width: 19%;
+        float: right;
+        margin-top: -52px;
+    }
+}

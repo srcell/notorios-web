@@ -1,0 +1,80 @@
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-smoke: #515151;
+    --color2: #e8e8e8;
+    --color3: #f0b1d0;
+}
+@font-face {
+    font-family: poppins-semibold;
+    src: url('/fonts/poppins-semibold.ttf');
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url('/fonts/poppins-medium.ttf');
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url('/fonts/poppins-bold.ttf');
+}
+@font-face {
+    font-family: poppins-extrabolditalic;
+    src: url('/fonts/poppins-extrabolditalic.ttf');
+}
+@font-face {
+    font-family: poppins-bolditalic;
+    src: url('/fonts/poppins-bolditalic.ttf');
+}
+
+#alex{
+    background-color: var(--color-white);
+    height: 1000px;
+}
+
+
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: var(--color3);
+    width: 0%;
+    height: 2px;
+}
+.navbar .navbar-nav .nav-item:hover::after{
+    width: 100%;
+}
+.navbar{
+    background-color: var(--color-black) !important;
+}
+.nav-item a{
+    font-family:poppins-medium;
+    color: var(--color2);
+}
+.nav-link{
+    color: var(--color-black);
+    font-size:15px ;
+    font-style:italic;
+}
+.navbar-brand{
+    padding-top: 20px;
+    padding-right: 70px;
+}
+.nav-link:hover{
+    color: var(--color3);
+    font-size:15px ;
+}
+.nav-link:active{
+    color: var(--color3) !important;
+}
+.boton-offcanvas{
+    border: 0px;
+    background: none;
+}
+.boton-offcanvas span i{
+    color: var(--color-white);
+}
