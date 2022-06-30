@@ -5,6 +5,9 @@
     .offcanvar-mobile{
         display: none;
     }
+    #logo-mobile{
+        display: none;
+    }
 }
 @media only screen and (max-width:1440px){
     .all-text-mobile{
@@ -97,6 +100,20 @@
 
 }
 @media(max-width:768px){
+    #logo-web{
+        display: none;
+    }
+    #logo-mobile{
+        display: block;
+    }
+    #logo-mobile img{
+        width: 10%;
+        float: right;
+         margin-top: -61px;
+    }
+    .boton-offcanvas span i {
+        padding-top: 16px;
+    }
     .img-form img {
         width: 55%;
         margin-top: 78%;
@@ -136,11 +153,19 @@
 
 }
 @media(max-width:425px){
+    #logo-mobile img {
+        width: 17%;
+        float: right;
+        margin-top: -59px;
+    }
     #formulario h1{
         padding-top: 5px;
     }
     .fourThing{
         padding-bottom: 70px;
+    }
+    .boton-offcanvas span i {
+        padding-top: 7px;
     }
 
 }
@@ -155,5 +180,22 @@
         padding-top: 10px;
         padding-bottom: 15px;
         padding-right: 10px;
+    }
+    .boton-offcanvas span i {
+        padding-top: 5px;
+    }
+    #logo-mobile img {
+        width: 17%;
+        float: right;
+        margin-top: -56px;
+    }
+}
+
+
+@media(max-width:320px){
+    #logo-mobile img {
+        width: 19%;
+        float: right;
+        margin-top: -52px;
     }
 }
