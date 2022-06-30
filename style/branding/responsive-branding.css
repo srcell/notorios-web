@@ -26,6 +26,9 @@
     .offcanvar-mobile{
         display: none;
     }
+    #glide-mobile-arrows{
+        display: none;
+    }
 }
 @media(max-width:1440px){
     .glide__slide img{
@@ -88,6 +91,7 @@
     }
     .info-branding-title p{
         text-align: center;
+        margin: 0px 18px 0px 18px;
     }
     .gif-title-branding img{
         width: 60%;

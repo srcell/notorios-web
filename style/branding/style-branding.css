@@ -316,10 +316,9 @@ span{
     margin-top:50px ;
     width: 60rem;
 }
-.glide__arrow p{
-    font-weight: bold;
-    font-size: 22px;
+.glide__arrow i{
     color: var(--color-white);
+    padding-right: 0px;
 }
     
     
