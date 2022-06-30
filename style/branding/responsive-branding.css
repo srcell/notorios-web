@@ -170,6 +170,9 @@
         margin-bottom: 50px;
         margin-top: 50px;
     }
+    .footer-text {
+        margin-bottom: 10px;
+    }
 }
 @media (max-width:768px){
     #logo-web{
@@ -372,6 +375,9 @@
     }
 }
 @media(max-width:425px){
+    .glide__slide img {
+        width: 100.5%;
+        }
     #urimare-square img{
         content: url(/img/square-photos/urimare-square.png);
         }
@@ -426,9 +432,6 @@
     }
 }
 @media (max-width: 375px){
-    .glide__slide img {
-    width: 23.5rem;
-    }
     .glide__arrow{
         position: absolute;
         display: block;
