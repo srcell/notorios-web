@@ -76,10 +76,14 @@
     padding-bottom: 0px;
     }
 }
+
 /*INFO BRANDING*/
 @media (max-width:1440px){
     #info-branding{
         margin: 136px 0px 136px 0px;
+    }
+    .images-info img {
+        width: 60%;
     }
 }
 
@@ -328,5 +332,10 @@
     }
     .padding-2 {
         padding-top: 55px;
+    }
+}
+@media (max-width: 320px){
+    .glide__slide img {
+    width: 20rem;
     }
 }

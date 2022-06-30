@@ -66,6 +66,10 @@
         width: 21.3rem;
         height: 38rem;
     }
+    .number{
+        margin-left: 432px;
+        margin-right: 432px;
+    }
 }
 @media(max-width:912px){
     .image{
@@ -87,6 +91,10 @@
     #boton-consulta {
         text-align: center;
         padding: 0px 20px 0px 20px  
+     }
+     .number {
+        margin-left: 315px;
+        margin-right: 315px;
      }
 }
 @media(max-width:720px){
