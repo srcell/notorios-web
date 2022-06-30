@@ -63,7 +63,7 @@
 .name-alex{
     border: 6px solid var(--color-white );
     background-color: var(--color-white);
-    margin: 28px 0px 0px 785px;
+    margin: 28px 0px 0px 40%;
     padding: 0px 100px 0px 100px;
     position: absolute;
 }
@@ -72,7 +72,7 @@
 /*VIDEO*/
 .color-bg{
     height: 71%;
-    width: 99%;
+    width: 100%;
     position: absolute;
     background-color: var(--color4);
     padding: 0px;
@@ -81,6 +81,10 @@
 }
 iframe{
     width: 10%;
+}
+.video-alex{
+    margin: 0px;
+    padding: 0px;
 }
 /*VIDEO - END*/
 /*FORMULARIO*/
