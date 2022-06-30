@@ -408,7 +408,7 @@
     .glide__arrow{
         position: absolute;
         display: block;
-        top: 41%;
+        top: 37%;
         z-index: 2;
         color: var(--color-white);
         text-transform: uppercase;
@@ -432,7 +432,7 @@
     .glide__arrow{
         position: absolute;
         display: block;
-        top: 41%;
+        top: 38%;
         z-index: 2;
         color: var(--color-white);
         text-transform: uppercase;
@@ -469,7 +469,7 @@
     .glide__arrow{
         position: absolute;
         display: block;
-        top: 41%;
+        top: 35%;
         z-index: 2;
         text-transform: uppercase;
         /* padding: 9px 12px; */
