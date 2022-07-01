@@ -36,7 +36,7 @@
 }
 @media(max-width:1440px){
     .glide__slide img{
-        width: 43.5rem;
+        width: 100%;
         padding-top:0px;
         padding-bottom: 50px;
     }
@@ -102,7 +102,7 @@
         margin-top: 50px;
     }
     .glide__slide img{
-    width: 29.5rem;
+    width: 100%;
     padding-top: 0px;
     padding-bottom: 50px;
     margin: 0px;
@@ -191,7 +191,7 @@
         margin-right: 530px;
     }
     .glide__slide img {
-        width: 48.5rem;
+        width: 100%;
     }
     .gif-title-branding img {
         width: 90%;

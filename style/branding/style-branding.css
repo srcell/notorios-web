@@ -169,8 +169,8 @@ button{
     margin-bottom: 67px;
 }
 .title-port-sub{
-    margin-left: 32px;
-    margin-right: 700px;
+    margin-left: 3%;
+    margin-right: 83%;
     background-color: var(--color-white);
 }
 
@@ -316,9 +316,9 @@ span{
     margin: 30px 100px 100px 50px;
 }
 
-.glide__slide img{
-    margin-top:50px ;
-    width: 60rem;
+.glide__slide img {
+    margin-top: 50px;
+    width: 100%;
 }
 .glide__arrow i{
     color: var(--color-white);
