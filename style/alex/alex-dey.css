@@ -52,6 +52,7 @@
 }
 /*PADDING-END*/
 
+/*ALEX SECCION*/
 #alex{
     background-color: var(--color-black);
     
@@ -68,7 +69,10 @@
 .text-alex{
     margin-top: 100px;
 }
-
+.subtitle-alex p{
+    width: 71%;
+}
+/*ALEX SECCION - END*/
 /*INSPIRACIÓN*/
 .title-insp{
     border: 6px solid var(--color4);
