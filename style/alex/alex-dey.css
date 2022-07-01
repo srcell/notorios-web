@@ -70,7 +70,25 @@
     margin-top: 100px;
 }
 .subtitle-alex p{
-    width: 71%;
+    width: 79%;
+    font-size: 184%;
+    padding-top: 100px;
+}
+.boton-formu button{
+    background-color: var(--color4);
+    border-radius: 10px;
+    width: 15%;
+}
+.boton-formu button a{
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.boton-formu button a:hover{
+    transition: 0.5s;
+    color: var(--color-white);
+    font-weight: bold;
 }
 /*ALEX SECCION - END*/
 /*INSPIRACIÓN*/
