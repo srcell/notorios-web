@@ -30,6 +30,8 @@
     font-family: poppins-bolditalic;
     src: url('/fonts/poppins-bolditalic.ttf');
 }
+/*FUENTES --  END*/
+
 /*CUERPO DE LA PAGINA*/
 html{
     scroll-behavior: smooth;
@@ -78,6 +80,8 @@ button:hover{
     color:var(--color-black);
     background-color: var(--color2);
 }
+/*CUERPO DE LA PAGINA -- END */
+/*LOADER*/
 .loader {
     position: fixed;
     left: 0px;
@@ -88,7 +92,8 @@ button:hover{
     background: url('/img/loading.gif') 50% 50% no-repeat rgb(0,0,0.5);
     opacity: .8;
 }
-
+/*LOADER -- END*/
+/*PADDING´S*/
 .padding{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -111,6 +116,8 @@ button:hover{
     padding-top: 60px;
     padding-bottom: 120px;
 }
+/*PADDING´S -- END*/
+/*ELIMINAR BARRA DE SCROLL*/
 ::-webkit-scrollbar{
     border: 0px;
     width: 0px;
@@ -118,6 +125,8 @@ button:hover{
     scroll-behavior: initial;
     scroll-behavior: unset;
 }
+/*ELIMINAR BARRA DE SCROLL -- END*/
+/*CARROUSEL*/
 .carrousel{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -149,9 +158,10 @@ button:hover{
     height: 969px;
 }
 */
+/*CARROUSEL -- END*/
 
 /*******************************************/
-#noticias .container{
+/* #noticias .container{
     position: relative;
 }
 #btnBlancoNegro{
@@ -183,9 +193,12 @@ button:hover{
 }
 .btnVistaPrevia{
 cursor: pointer;
-}
+} */
+
+/*************************************************************/
+/*************************************************************/
+/*************************************************************/
 /*APARTADO DE FADEIN DE LAS WEB*/
-/*****************************************************/
 #redes{
     background-color: var(--color4);
     color: var(--color-blanco);
@@ -263,9 +276,7 @@ cursor: pointer;
 #alex figure figcaption div i{
     cursor: pointer;
 }
-
 /*************************************************************/
-
 #alex-mobile{
     background-color: var(--color4);
     color: var(--color-blanco);
@@ -292,7 +303,10 @@ cursor: pointer;
     cursor: pointer;
 }
 /*************************************************************/
+/*************************************************************/
+/*************************************************************/
 
+/*APARTADO DE FOOTER*/
 footer{
     border-top: 1px solid var(--color-white);
     background-color: var(--color-black);
@@ -317,8 +331,9 @@ footer{
 .bi:hover{
     color: var(--color3);
 }
-
+/*APARTADO DE FOOTER --- END*/
 /*********************************/
+/*SECTION DE OFRECEMOS*/
 .title-empezar{
     color: var(--color2);
     font-family:poppins-blackitalic;
@@ -347,16 +362,15 @@ span{
     margin: 5px 0px 5px 0px;
     font-weight: bold;
 }
-
 .boton-ofrecemos:hover{
     transform: scale(1.1);
 }
-
 .boton-ofrecemos::before{
     transition: 0.3s;
     margin: 10px 10px 10px 10px;
 }
-
+/*SECTION DE OFRECEMOS--END*/
+/*SECTION GUIE - PREFIERES*/
 #guie{
     color: var(--color-black);
     font-weight: bold;
@@ -371,7 +385,6 @@ span{
     margin: 0 auto;
     right: 50%;
 }
-
 #prefieres{
     background-color: var(--color-white);
 }
@@ -399,11 +412,8 @@ span{
 #logo-final img{
     width: 18%;
 }
-
-
-
-
-
+/*SECTION GUIE - PREFIERES*/
+/*POP UP AL DAR A LA "X"*/
 .overlay {
 	position: fixed;
 	bottom: 0;
@@ -413,11 +423,9 @@ span{
 	display: flex;
 	visibility: hidden;
 }
-
 .overlay.active {
 	visibility: visible;
 }
-
 .popup {
     border-bottom:2px solid var(--color-black);
     border-left:2px solid var(--color-black);
@@ -474,29 +482,24 @@ span{
     transition: .3s ease all;
     color: #BBBBBB;
 }
-
 .popup .btn-cerrar-popup:hover {
 	color: #000;
 }
-
 .popup h3 {
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 10px;
 	opacity: 0;
 }
-
 .popup h4 {
 	font-size: 26px;
 	font-weight: 300;
 	margin-bottom: 40px;
 	opacity: 0;
 }
-
 .popup form .contenedor-inputs {
 	opacity: 0;
 }
-
 .popup form .contenedor-inputs input {
     border: 0px ;
 	width: 390px;
@@ -519,11 +522,9 @@ span{
 	cursor: pointer;
 	transition: .3s ease all;
 }
-
 .popup form .btn-submit:hover {
 	background: rgba(94,125,227, .9);
 }
-
 /* ------------------------- */
 /* ANIMACIONES */
 /* ------------------------- */
@@ -560,3 +561,4 @@ span{
 	from { opacity: 0; }
 	to { opacity: 1; }
 }
+/*POP UP AL DAR A LA "X" -- END */
