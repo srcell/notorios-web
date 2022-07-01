@@ -80,7 +80,7 @@ html {
 .boton-formu button{
     background-color: var(--color4);
     border-radius: 10px;
-    width: 15%;
+    padding: 1% 5% 1% 5%;
 }
 .boton-formu button a{
     text-decoration: none;
