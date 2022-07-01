@@ -203,3 +203,38 @@ footer{
 .boton-offcanvas span i{
     color: var(--color-white);
 }
+.navbar{
+    background-color: var(--color-black) !important;
+}
+.nav-item a{
+    font-family:poppins-medium;
+    color: var(--color2);
+}
+.color-a-offcanvas a{
+    color: var(--color-black);
+}
+.nav-link{
+    color: var(--color-black);
+    font-size:15px ;
+    font-style:italic;
+}
+.sepa{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.sepa-one{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    padding-top: 20px;
+    padding-right: 70px;
+}
+.nav-link:hover{
+    color: var(--color3);
+    font-size:15px ;
+}
+.nav-link:active{
+    color: var(--color3) !important;
+}
