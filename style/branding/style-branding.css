@@ -25,6 +25,9 @@
     font-family: poppins-bolditalic;
     src: url('/fonts/poppins-bolditalic.ttf');
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-color: var(--color-black);
 }
@@ -195,7 +198,6 @@ button{
     scroll-behavior: initial;
     scroll-behavior: unset;
 }
-
 .navbar .navbar-nav .nav-item{
     position: relative;
 }
@@ -235,6 +237,8 @@ button{
 }
 
 .navbar{
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-white);
     background-color: var(--color-black) !important;
 }
 .nav-item a{
@@ -259,7 +263,6 @@ button{
 }
 
 .navbar-brand{
-    padding-top: 20px;
     padding-right: 70px;
 }
 .nav-link:hover{

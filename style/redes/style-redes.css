@@ -32,6 +32,9 @@
     background: url('/img/loading.gif') 50% 50% no-repeat rgb(0,0,0.5);
     opacity: .8;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 .padding{
     padding-top: 300px;
