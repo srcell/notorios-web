@@ -21,12 +21,20 @@
     src: url('/fonts/poppins-semibold.ttf');
 }
 @font-face {
+    font-family: poppins-light;
+    src: url('/fonts/poppins-light.ttf');
+}
+@font-face {
     font-family: poppins-medium;
     src: url('/fonts/poppins-medium.ttf');
 }
 @font-face {
     font-family: poppins-bold;
     src: url('/fonts/poppins-bold.ttf');
+}
+@font-face {
+    font-family: poppins-italic;
+    src: url('/fonts/poppins-italic.ttf');
 }
 @font-face {
     font-family: poppins-extrabolditalic;
@@ -67,12 +75,21 @@
     margin: 3% 6% 0px 6%;
     padding: 2% 0px 2% 0px;
 }
+.title-insp h1{
+    font-family:poppins-italic;
+    font-weight: 900;
+}
 .name-alex{
     border: 6px solid var(--color-white );
     background-color: var(--color-white);
     margin: 2% 0px 0px 40%;
     padding: 0px 100px 0px 100px;
     position: absolute;
+}
+.name-alex h4{
+    font-family: poppins-light;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 
 /*INSPIRACIÓN -- END*/
@@ -87,6 +104,10 @@ iframe{
 .color-video{
     margin: 0px;
     padding: 0px;
+}
+.title-video h1{
+    font-family:poppins-italic;
+    font-weight: 900;
 }
 /*VIDEO - END*/
 /*FORMULARIO*/
