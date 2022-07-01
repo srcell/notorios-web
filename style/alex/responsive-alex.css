@@ -39,6 +39,11 @@
     .subtitle-alex p{
         padding-top: 26px ; 
     }
+    .boton-formu button a{
+        padding: 0px;
+        margin: 0px;
+    }
+
     .title-video{
         padding: 40px 0px 40px 0px;
     }
