@@ -363,15 +363,13 @@ span{
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 1000px;
+    max-width: 1066px;
 }
 
 /* Caption of Modal Image */
 #caption {
     margin: auto;
     display: block;
-    width: 80%;
     max-width: 700px;
     text-align: center;
     color: #ccc;
