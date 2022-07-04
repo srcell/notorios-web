@@ -362,6 +362,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
     }
 }
 @media (max-width: 320px){
+    #formulario h1{
+        text-align: center;
+    }
     #prefieres h2 {
         padding: 40px 22px 3px 12px;
         font-family: poppins-bold;
