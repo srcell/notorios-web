@@ -40,8 +40,8 @@
         padding-top:0px;
         padding-bottom: 50px;
     }
-    .glide__arrows{
-        display: none;
+    .glide__arrow {
+        top: 45%;
     }
     .title-port-sub {
         margin-left: 39px;
