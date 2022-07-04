@@ -135,6 +135,28 @@ iframe{
     font-weight: 900;
 }
 /*VIDEO - END*/
+/*IMAGEN CENTRO*/
+.image-logo-alex{
+    padding-left: 5%;
+}
+.img-center {
+    margin: 0px 20px 0px 20px;
+}
+.image-center-ofi{
+    margin: 10px;
+}
+
+.content-text-center{
+    margin-top: 20PX;
+}
+.content-text-center h1{
+    font-size: 55px;
+    font-family: poppins-bolditalic;
+}
+.content-text-center p{
+    font-size: 26px;
+}
+/*IMAGEN CENTRO - END*/
 /*FORMULARIO*/
 .texto-boton-env{
     font-size: 17px;

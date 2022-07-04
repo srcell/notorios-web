@@ -26,6 +26,9 @@
     }
 }
 @media(max-width:1440px){
+    #image-alex{
+        padding: 40px 0px 40px 0px;
+    }
     .name-alex{
         margin: 28px 0px 0px 38%;
     }
@@ -43,7 +46,9 @@
         padding: 0px;
         margin: 0px;
     }
-
+    .image-logo-alex {
+        padding-left: 0px;
+    }
     .title-video{
         padding: 40px 0px 40px 0px;
     }
@@ -54,6 +59,25 @@
     }
     .img-form{
         display: none;
+    }
+    .image-center-ofi {
+        width: 147px;
+        margin: 0px 0px 0px 30px;
+        /* padding-right: 133%; */
+    }
+    .img-center {
+        margin: 0px 30px 0px 30px;
+        padding-right: 11%;
+    }
+    .content-text-center {
+        margin-top: 23PX;
+        padding: 0px 0px 0px 33px;
+    }
+    .content-text-center h1 {
+        font-size: 37px;
+    }
+    .content-text-center p {
+        font-size: 18px;
     }
 }
 @media(max-width:992px){
@@ -78,6 +102,9 @@
     }
 }
 @media (max-width:768px){
+    #mobile-center {
+        margin: 22px 244px 0px 196px;
+        }    
     #logo-web{
         display: none;
     }
@@ -88,6 +115,10 @@
         width: 10%;
         float: right;
          margin-top: -62px;
+    }
+    .img-center {
+        margin: 0px 30px 0px 30px;
+        padding-right: 0px;
     }
     .name-alex {
         margin: 2px 0px 0px 38%;
@@ -113,6 +144,9 @@
     }
 }
 @media(max-width:425px){
+    #mobile-center {
+        margin: 0px 0px 0px 0px;
+        } 
     .navbar {
         padding-bottom: 2px;
     }
@@ -169,6 +203,20 @@
     .video-alex{
         margin: 0px 0px 0px 0px;
     }
+    .img-center {
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+        padding-right: 0px;
+    }
+    .image-center-ofi {
+        width: 147px;
+        margin: 0px 0px 0px 0px;
+        padding-right: 0px;
+    }
+    .content-text-center {
+        margin-top: 23PX;
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 @media(max-width:375px){
@@ -178,6 +226,20 @@
     }
     .name-alex h4 {
         font-size: 17px;
+    }
+    .img-center {
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+        padding-right: 0px;
+    }
+    .image-center-ofi {
+        width: 147px;
+        margin: 0px 0px 0px 0px;
+        padding-right: 0px;
+    }
+    .content-text-center {
+        margin-top: 23PX;
+        padding: 0px 0px 0px 0px;
     }
 
 }
@@ -190,5 +252,19 @@
         width: 19%;
         float: right;
         margin-top: -52px;
+    }
+    .img-center {
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+        padding-right: 0px;
+    }
+    .image-center-ofi {
+        width: 147px;
+        margin: 0px 0px 0px 0px;
+        padding-right: 0px;
+    }
+    .content-text-center {
+        margin-top: 23PX;
+        padding: 0px 0px 0px 0px;
     }
 }
