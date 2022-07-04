@@ -180,6 +180,9 @@
 }
 
 @media (max-width: 320px){
+    #formulario h1{
+        text-align: center;
+    }
     #logo-mobile img {
         width: 19%;
         float: right;
