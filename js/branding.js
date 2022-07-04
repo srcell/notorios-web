@@ -19,11 +19,11 @@ btnCerrarPopup.addEventListener('click', function(e){
 });
 
 //========================================================================================//
+//========================================================================================//
 // Get the modal
 var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
+//THC//
+var img = document.getElementById('thc-modal');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
@@ -32,20 +32,18 @@ img.onclick = function(){
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-//========================================================================================//
-
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+//URIMARE//
 var img = document.getElementById('urimare-modal');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "/img/modal-branding/urimare-modal.png";
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+//CAST28//
+var img = document.getElementById('cast28-modal');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
@@ -54,11 +52,71 @@ img.onclick = function(){
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
-
-// Get the <span> element that closes the modal
+//NAITO//
+var img = document.getElementById('naito-modal');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "/img/urimare-modal.png";
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+//OHMIODIO//
+var img = document.getElementById('ohmiodio-modal');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "/img/urimare-modal.png";
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+//INEDO//
+var img = document.getElementById('inedo-modal');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "/img/urimare-modal.png";
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+//MAROVAN//
+var img = document.getElementById('marovan-modal');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "/img/urimare-modal.png";
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+//MARIBEL//
+var img = document.getElementById('maribel-modal');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "/img/urimare-modal.png";
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+//YEEBA//
+var img = document.getElementById('yeeba-modal');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "/img/urimare-modal.png";
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
     modal.style.display = "none";
 }
+//========================================================================================//
+//========================================================================================//
+
