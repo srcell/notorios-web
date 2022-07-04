@@ -89,6 +89,9 @@
     #info-branding{
         margin: 0px 0px 100px 0px;
     }
+    .info-branding-three{
+        text-align: center;
+    }
     .info-branding-title h4{
         margin-bottom: 0px;
         text-align: center;
@@ -111,31 +114,39 @@
         margin-left: 19px;
         margin-right: 300px;
     }
+    .images-info-mobile img {
+        width: 40%;
+    }
     #investigacion{
         background-image: url(/img/images-info-branding/1.png);
         background-repeat: no-repeat;
-        background-size: 33%;
-        background-position: 70%;
+        background-size: 9%;
+        background-position: 72%;
         padding-top:57px ;
     }
     #investigacion h2{
+        text-align: center;
         padding-bottom: 40px;
-
+    }
+    #info-branding-three p {
+        text-align: center;
     }
     #conclusiones h2{
+        text-align: center;
         padding-top: 0px;
     }
     #implementacion{
         background-image: url(/img/images-info-branding/3.png);
         background-repeat: no-repeat;
-        background-size: 48%;
-        background-position: 80%;
+        background-size: 13%;
+        background-position: 72%;
         padding-top:53px;
     }
     #implementacion p{
         padding-top: 30px;
     }
     #implementacion h2{
+        text-align: center;
         padding-top:10px
     }
 
@@ -143,8 +154,8 @@
         /* margin-right: 86px; */
         background-image: url(/img/images-info-branding/2.png);
         background-repeat: no-repeat;
-        background-size: 45%;
-        background-position: 74%;
+        background-size: 13%;
+        background-position: 72%;
         padding-top: 20px;
 
     }
