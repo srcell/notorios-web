@@ -31,6 +31,8 @@ img.onclick = function(){
     modalImg.src = "/img/branding.png";
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
+	$('#thc-modal').modal({backdrop: 'static', keyboard: false})  
+
 }
 //URIMARE//
 var img = document.getElementById('urimare-modal');
@@ -88,7 +90,7 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
-    modalImg.src = "/img/urimare-modal.png";
+    modalImg.src = "/img/modal-branding/marovan-modal.png";
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
@@ -112,11 +114,12 @@ img.onclick = function(){
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("modal")[0];
 
 span.onclick = function() { 
     modal.style.display = "none";
 }
+
 //========================================================================================//
 //========================================================================================//
 
