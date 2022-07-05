@@ -2,6 +2,10 @@ document.oncontextmenu = function(){
     return false;
 }
 
+function no_scroll(){
+    document.getElementById("main-body-page").style.overflow = 'hidden';
+}
+
 var btnAbrirPopup = document.getElementById('btn-abrir-popup'),
 	overlay = document.getElementById('overlay'),
 	popup = document.getElementById('popup'),
@@ -57,10 +61,12 @@ img.onclick = function(){
 //NAITO//
 var img = document.getElementById('naito-modal');
 var modalImg = document.getElementById("img01");
+var noscroll = document.getElementById("main-body-page")
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = "/img/modal-branding/naito-modal.png";
+    noscroll.style.overflow = 'hidden'; 
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
