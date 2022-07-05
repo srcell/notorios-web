@@ -131,7 +131,7 @@ iframe{
     padding: 0px;
 }
 .title-video h1{
-    font-family:poppins-italic;
+    font-family:poppins-extrabolditalic;
     font-weight: 900;
 }
 /*VIDEO - END*/
@@ -165,6 +165,7 @@ iframe{
     margin-bottom: 0px;
 }
 #formulario h1{
+    font-family: poppins-extrabolditalic;
     margin-bottom: 30px;
 }
 /* .btn-enviar-form{
