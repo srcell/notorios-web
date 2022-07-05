@@ -305,6 +305,12 @@
     .glide__slide img {
         width: 26.5rem
     }
+    .modal{
+        padding-top: 60px;
+    }
+    .close-out {
+        height: 110%;
+    }
     #info-branding{
         display: none;
     }

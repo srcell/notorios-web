@@ -339,8 +339,6 @@ span{
     position: absolute;
     overflow: hidden;
 }
-
-
 #myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -354,7 +352,7 @@ span{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
      /* Sit on top */
-    padding-top: 40px; /* Location of the box */
+    padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
     /* width: 100%; Full width */
@@ -416,6 +414,7 @@ span{
 
 /* The Close Button */
 .close {
+    padding: 0px 0px 0px 97%;
     position: absolute;
     top: 15px;
     right: 35px;

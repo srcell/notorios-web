@@ -114,9 +114,13 @@ img.onclick = function(){
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
-var span = document.getElementsByClassName("close-out")[0];
+var span = document.getElementsByClassName("close")[0];
+var div = document.getElementsByClassName("close-out")[0];
 
 span.onclick = function() { 
+    modal.style.display = "none";
+}
+div.onclick = function() { 
     modal.style.display = "none";
 }
 
