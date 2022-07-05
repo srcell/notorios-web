@@ -27,10 +27,16 @@
 }
 @media(max-width:1440px){
     #image-alex{
-        padding: 40px 0px 40px 0px;
+        padding: 40px 85px 40px 95px;
     }
     .name-alex{
         margin: 28px 0px 0px 38%;
+    }
+    .content-text-center h1 {
+        font-size: 34px;
+    }
+    .content-text-center p {
+        font-size: 16px;
     }
     iframe {
         width: 90%;
@@ -49,11 +55,23 @@
     .image-logo-alex {
         padding-left: 0px;
     }
+    .image-center-ofi {
+        width: 85%;
+    }
     .title-video{
         padding: 40px 0px 40px 0px;
     }
 }
 @media (max-width: 1024px){
+    .subtitle-alex p {
+        width: 100%;
+    }
+    .boton-formu-contact{
+        margin: 30px 0px 40px 415px;
+    }
+    #alex p {
+        text-align: center;
+    }
     .name-alex{
     margin: 11px 0px 0px 32%;
     }

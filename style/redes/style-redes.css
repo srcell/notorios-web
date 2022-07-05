@@ -212,8 +212,7 @@ h1{
 }
 .overlay {
 	position: fixed;
-	bottom: 0;
-
+	bottom: 55px;
 	right: 0;
 	align-items: center;
 	justify-content: center;
