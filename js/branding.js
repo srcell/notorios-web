@@ -58,7 +58,7 @@ var captionText = document.getElementById("caption");
 img.onclick = function(){
     noscroll.style.overflow = "hidden";
     modal.style.display = "block";
-    modalImg.src = "/img/urimare-modal.png";
+    modalImg.src = "/img/modal-branding/cast28-modal.png";
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
