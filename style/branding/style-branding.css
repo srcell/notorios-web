@@ -337,6 +337,7 @@ span{
     width: 101%;
     height: 103%;
     position: absolute;
+    overflow: hidden;
 }
 
 
@@ -353,12 +354,12 @@ span{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
      /* Sit on top */
-    padding-top: 20px; /* Location of the box */
+    padding-top: 40px; /* Location of the box */
     left: 0;
     top: 0;
     /* width: 100%; Full width */
     height: 100%; /* Full height */
-    overflow: scroll; /* Enable scroll if needed */
+    overflow: scroll;/* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 
@@ -372,7 +373,6 @@ span{
 
 /* Caption of Modal Image */
 #caption {
-    overflow: hidden;
     margin: auto;
     display: block;
     max-width: 700px;

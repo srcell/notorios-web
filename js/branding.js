@@ -100,7 +100,7 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
-    modalImg.src = "/img/urimare-modal.png";
+    modalImg.src = "/img/modal-branding/maribel-modal.png";
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
