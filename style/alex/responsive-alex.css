@@ -269,6 +269,9 @@
         margin-top: 23PX;
         padding: 0px 0px 0px 0px;
     }
+    .content-text-center p {
+        padding: 0px 0px 0px 16px;
+    }
 
 }
 
@@ -278,6 +281,7 @@
     }
     .content-text-center p {
         font-size: 11px;
+        padding: 0px 0px 0px 16px;
     }
     #formulario h1{
         text-align: center;
