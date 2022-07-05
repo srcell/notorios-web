@@ -308,6 +308,9 @@
     .modal{
         padding-top: 60px;
     }
+    .close{
+    padding: 40px 20px 40px 97%;
+    }
     .close-out {
         height: 110%;
     }
