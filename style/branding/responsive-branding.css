@@ -309,7 +309,8 @@
         padding-top: 60px;
     }
     .close{
-    padding: 40px 20px 40px 97%;
+        margin: -21px -20px 0px 0px;
+        padding: 0px 0px 0px 92%;
     }
     .close-out {
         height: 110%;

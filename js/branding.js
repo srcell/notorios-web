@@ -136,11 +136,9 @@ span.onclick = function() {
     modal.style.display = "none";
     noscroll.style.overflow = "scroll";    
 }
-div.onclick = function() { // pruebascroll.onclick = function() { 
-//     noscroll.style.overflow = 'scroll'; 
-// }
-
+div.onclick = function() { 
     modal.style.display = "none";
+    noscroll.style.overflow = "scroll";    
 }
 
 
