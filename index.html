@@ -207,11 +207,30 @@
             <div class="col col-3 separador">
               <img src="/img/linea.png" alt="">
             </div>
-            <div class="col col-3 mensaje-input">
+            <div class="col col-8 mensaje-input">
               <p id="title-modal-info">By:Notorios@agency.com</p>
-              <form action="">
-                <div class="contenedor-inputs">
-                  <input class="datos" type="textarea" placeholder="mensaje...">
+              <form action=""
+              data-netlify-recaptcha="true" 
+              netlify-honeypot="bot-field" 
+              action="index.html" 
+              id="contact-form" 
+              class="contact" 
+              name="contact"
+              method="post" 
+              data-netlify="true">
+              <div class="row">
+                <div class="col-md-6 form-group form-group-email">
+                  <input type="email" name="email" class="form-control name-fiel" required="required" placeholder="Correo Electrónico">
+                </div>
+                <div class="col-md-6 form-group form-group-name">
+                  <input type="text" name="nombre" class="form-control name-fiel" required="required" placeholder="Nombres">
+                </div>
+              </div>
+              <div class="form-group form-group-text">
+                <textarea name="mensaje" id="message" required="required" class="form-control" rows="3" placeholder="Mensaje"></textarea>
+              </div>
+                <div class="form-group form-group-boton">
+                  <button type="submit"><p class="texto-boton-env">Enviar</p></button>
                 </div>
                 <!-- <input type="submit" class="btn-submit" value="Suscribirse"> -->
               </form>
