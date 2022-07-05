@@ -285,9 +285,10 @@ footer{
     font-size: 15px;
 }
 .bi{
+    margin-bottom: 9px;
     float: right;
-    font-size: 25px;
-    padding-right: 15px;
+    font-size: 21px;
+    padding-right: 14px;
     color: var(--color-white);
 }
 
@@ -401,6 +402,64 @@ span{
 }
 
 
+/*FORMULARIO POP UP*/
+.form-control{
+    border-radius: 0px;
+    background-color: var(--color2);
+}
+textarea{
+    margin: 5px 0px 4px 13px;
+}
+.form-group-text{
+    width: 94%;
+}
+.form-group-email{
+    padding: 0px 5px 0px 25px;
+}
+.form-group-name{
+    padding: 0px 23px 0px 0px;
+}
+.form-group-boton {
+    padding: 2px 0px 5px 81%;
+}
+.form-group-boton button{
+    border: 0px solid;
+    background-color: var(--color3);
+    padding: 4px;
+}
+.form-group-boton button:hover{
+    background-color: var(--color2);
+}
+.form-group-boton button p{
+    margin: 0px 0px 0px 0px;
+}
+#icono-logo-modal {
+    margin: 67px 0px 0px 35px;
+    height: 100px;
+}
+.separador img {
+    width: 30px;
+    height: 215px;
+}
+.separador{
+    margin-top: 10px;
+    width: 30px;
+}
+.mensaje-input{
+    padding-top: 15px;
+}
+.mensaje-input p{
+    font-family: poppins-extrabolditalic;
+}
+#title-modal-info{
+    font-family:poppins-extrabolditalic;
+    padding-bottom: 10px;
+}
+#contacto-modal{
+    padding-left: 20px;
+}
+/*FORMULARIO POP UP - END*/
+
 
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
@@ -439,9 +498,8 @@ span{
 
 .overlay {
 	position: fixed;
-	bottom: 0;
-
-	right: 0;
+    bottom: 42px;
+    right: -29px;
 	align-items: center;
 	justify-content: center;
 	display: flex;
