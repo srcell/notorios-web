@@ -104,6 +104,15 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
         height: 37.5rem;
     }
 }
+@media (max-width:958px){
+    #alex-mobile{
+        display: none;
+    }
+    .image {
+        width: 20rem;
+        height: 32.5rem;
+    }
+}
 @media(max-width:890px){
 
     .image{
@@ -146,6 +155,20 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
     .image{
         width: 25.8rem;
         height: 45rem;
+    }
+}
+@media(max-width:520px){
+    #boton-consulta {
+        text-align: center;
+        padding: 0px 20px 0px 20px  
+     }
+    .image{
+        width: 32.8rem;
+        height: 48rem;
+    }
+    .number {
+        margin-left: 227px;
+        margin-right: 209px;
     }
 }
 @media(max-width:425px){
