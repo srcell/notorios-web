@@ -128,7 +128,7 @@
 }
 @media (max-width:768px){
     #mobile-center {
-        margin: 22px 244px 0px 196px;
+        display: none;
         }    
     #logo-web{
         display: none;
@@ -270,6 +270,12 @@
 }
 
 @media (max-width: 320px){
+    .content-text-center h1 {
+        font-size: 27px;
+    }
+    .content-text-center p {
+        font-size: 11px;
+    }
     #formulario h1{
         text-align: center;
     }
@@ -284,7 +290,7 @@
         padding-right: 0px;
     }
     .image-center-ofi {
-        width: 147px;
+        width: 80px;
         margin: 0px 0px 0px 0px;
         padding-right: 0px;
     }
