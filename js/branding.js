@@ -26,13 +26,16 @@ btnCerrarPopup.addEventListener('click', function(e){
 //========================================================================================//
 // Get the modal
 var modal = document.getElementById('myModal');
+var noscroll = document.getElementById('main-body-page');
 //THC//
 var img = document.getElementById('thc-modal');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
+    // noscroll.style.overflow = "hidden"; 
     modal.style.display = "block";
-    modalImg.src = "/img/branding.png";
+    modal.style.overflow = "hidden";
+    modalImg.src = "/img/modal-branding/thc-modal.png";
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 	$('#thc-modal').modal({backdrop: 'static', keyboard: false})  
@@ -61,7 +64,6 @@ img.onclick = function(){
 //NAITO//
 var img = document.getElementById('naito-modal');
 var modalImg = document.getElementById("img01");
-var noscroll = document.getElementById("main-body-page")
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
@@ -122,13 +124,19 @@ img.onclick = function(){
 }
 var span = document.getElementsByClassName("close")[0];
 var div = document.getElementsByClassName("close-out")[0];
+var pruebascroll = document.getElementById("main-body-page")[0];
 
 span.onclick = function() { 
     modal.style.display = "none";
+    modal.style.overflow = "scroll";    
 }
 div.onclick = function() { 
     modal.style.display = "none";
 }
+pruebascroll.onclick = function() { 
+    noscroll.style.overflow = 'scroll'; 
+}
+
 
 //========================================================================================//
 //========================================================================================//
