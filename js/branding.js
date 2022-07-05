@@ -39,7 +39,7 @@ var img = document.getElementById('urimare-modal');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
-    modal.style.display = "block";
+    modal.style.display = "inline";
     modalImg.src = "/img/modal-branding/urimare-modal.png";
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
@@ -114,7 +114,7 @@ img.onclick = function(){
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
-var span = document.getElementsByClassName("modal")[0];
+var span = document.getElementsByClassName("close-out")[0];
 
 span.onclick = function() { 
     modal.style.display = "none";
