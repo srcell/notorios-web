@@ -26,8 +26,15 @@
     }
 }
 @media(max-width:1440px){
+    #formulario{
+        padding-top: 30px;
+    }
     #image-alex{
         padding: 40px 85px 40px 95px;
+    }
+    .main-explicacion{
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .name-alex{
         margin: 28px 0px 0px 38%;
