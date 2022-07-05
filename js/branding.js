@@ -32,9 +32,9 @@ var img = document.getElementById('thc-modal');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
-    // noscroll.style.overflow = "hidden"; 
+    noscroll.style.overflow = "hidden"; 
     modal.style.display = "block";
-    modal.style.overflow = "hidden";
+    // modal.style.overflow = "hidden";
     modalImg.src = "/img/modal-branding/thc-modal.png";
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
@@ -128,13 +128,13 @@ var pruebascroll = document.getElementById("main-body-page")[0];
 
 span.onclick = function() { 
     modal.style.display = "none";
-    modal.style.overflow = "scroll";    
+    noscroll.style.overflow = "scroll";    
 }
-div.onclick = function() { 
+div.onclick = function() { // pruebascroll.onclick = function() { 
+//     noscroll.style.overflow = 'scroll'; 
+// }
+
     modal.style.display = "none";
-}
-pruebascroll.onclick = function() { 
-    noscroll.style.overflow = 'scroll'; 
 }
 
 
