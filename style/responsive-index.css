@@ -125,9 +125,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
     }
 }
 @media(max-width:768px){
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px;
     }
     #alex-mobile{
         display: none;
@@ -142,19 +142,19 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
     }
 }
 @media(max-width:720px){
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
-     }
+        margin: 6px 25px;
+    }
     .image{
         width: 45rem;
         height: 70rem;
     }
 }
 @media(max-width:540px){
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px;  
      }
     .image{
         width: 25.8rem;
@@ -162,9 +162,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
     }
 }
 @media(max-width:520px){
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px; 
      }
     .image{
         width: 32.8rem;
@@ -181,9 +181,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
         font-family: poppins-bold;
         text-align: center;
     }
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px; 
     }
      #logo-final img {
         width:60%;
@@ -236,9 +236,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
         font-family: poppins-bold;
         text-align: center;
     }
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px;  
      }
      #logo-final img {
         width:60%;
@@ -277,9 +277,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
         font-family: poppins-bold;
         text-align: center;
     }
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px;  
     }
     #logo-final img {
         width:60%;
@@ -317,9 +317,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
         font-family: poppins-bold;
         text-align: center;
     }
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px;  
     }
      #logo-final img {
         width:60%;
@@ -357,9 +357,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
         font-family: poppins-bold;
         text-align: center;
     }
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px  
+        margin: 6px 25px;  
     }
      #logo-final img {
         width:60%;
@@ -400,9 +400,9 @@ SLIDE PARA QUE SE ADAPTE A TODAS LAS PANTALLAS [.image]
         font-family: poppins-bold;
         text-align: center;
     }
-    #boton-consulta {
+    .text-boton-consulta {
         text-align: center;
-        padding: 0px 20px 0px 20px;  
+        margin: 6px 25px;  
         color: black;
     }
      #logo-final img {

@@ -62,7 +62,7 @@ a{
     font-weight: bold;
 }
 a:hover{
-    color:var(--color3) ;
+    color: var(--color-black);
     transition: 0.5s;
 }
 /* p:hover{
@@ -354,12 +354,12 @@ span{
     background-color:var(--color-white);
     box-shadow: 5px 5px  var(--color3);
     border-radius: 5px;
-    padding: 0px 50px 0px 50px;
+    padding: 0px;
 }
 .boton-ofrecemos p{
     color: var(--color-black);
     font-size: 20px;
-    margin: 5px 0px 5px 0px;
+    margin: 9px 50px 9px 50px;
     font-weight: bold;
 }
 .boton-ofrecemos:hover{
@@ -368,6 +368,9 @@ span{
 .boton-ofrecemos::before{
     transition: 0.3s;
     margin: 10px 10px 10px 10px;
+}
+.text-boton-consulta{
+    margin: 10px 180px;
 }
 /*SECTION DE OFRECEMOS--END*/
 /*SECTION GUIE - PREFIERES*/
@@ -400,7 +403,7 @@ span{
 }
 #boton-consulta{
     color: var(--color-black);
-    padding: 0px 180px 0px 180px;
+    padding: 0px ;
     background-color: var(--color-white);
     border: 1px solid var(--color-black);
     border-radius: 13px;
