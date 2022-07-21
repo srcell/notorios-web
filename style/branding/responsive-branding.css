@@ -186,9 +186,12 @@
     }
 }
 @media (max-width:768px){
-    #boton-consulta h3 {
+    #boton-consulta a {
         margin: 7px 90px;
         color: var(--color-black);
+    }
+    #boton-consulta h3{
+        margin: 10px 0px;
     }
     #logo-web{
         display: none;
@@ -319,8 +322,8 @@
     .close-out {
         height: 110%;
     }
-    #boton-consulta h3 {
-        margin: 2px 0px;
+    #boton-consulta a {
+        margin: 0px 40px;
         color: var(--color-black);
     }
     #info-branding{
@@ -345,7 +348,7 @@
     .images-info{
         display: none;
     }
-    #boton-consulta h3 {
+    #boton-consulta a {
         margin: 5px 40px;
         color: var(--color-black);
     }
@@ -396,9 +399,6 @@
         background-position: 83%;
         padding-top: 20px;
     }
-    #boton-consulta {
-        padding: 6px 50px 6px 50px;
-    }
     .row h2 {
         padding-bottom: 0px;
     }
@@ -411,8 +411,8 @@
     }
 }
 @media(max-width:425px){
-    #boton-consulta h3 {
-        margin: 2px 0px;
+    #boton-consulta a {
+        margin: 0px 40px;
         color: var(--color-black);
     }
     .glide__slide img {
@@ -472,9 +472,12 @@
     }
 }
 @media (max-width: 375px){
-    #boton-consulta h3 {
-        margin: 2px 0px;
+    #boton-consulta a {
+        margin: 0px 40px;
         color: var(--color-black);
+    }
+    #boton-consulta h3{
+        margin: 5px 0px;
     }
     .glide__arrow{
         position: absolute;
@@ -502,8 +505,11 @@
         float: right;
         margin-top: -52px;
     }
-    #boton-consulta h3 {
+    #boton-consulta h3{
         margin: 2px 0px;
+    }
+    #boton-consulta a {
+        margin: 0px 40px;
         color: var(--color-black);
     }
     .glide__slide img {
