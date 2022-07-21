@@ -154,14 +154,18 @@ button{
 
 }
 #boton-consulta{
-    padding: 6px 180px 6px 180px;
+    padding: 0px;
     background-color: var(--color-white);
     border: 1px solid var(--color-black);
     border-radius: 13px;
 }
 #boton-consulta h3{
-    margin: 0px;
+    margin: 10px 180px;
     color: var(--color-black);
+}
+#boton-consulta a{
+    color: var(--color-black);
+    text-decoration: none;
 }
 #boton-consulta:hover{
     transform: scale(1.1);

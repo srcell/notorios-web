@@ -186,6 +186,10 @@
     }
 }
 @media (max-width:768px){
+    #boton-consulta h3 {
+        margin: 7px 90px;
+        color: var(--color-black);
+    }
     #logo-web{
         display: none;
     }
@@ -315,6 +319,10 @@
     .close-out {
         height: 110%;
     }
+    #boton-consulta h3 {
+        margin: 2px 0px;
+        color: var(--color-black);
+    }
     #info-branding{
         display: none;
     }
@@ -336,6 +344,10 @@
     }
     .images-info{
         display: none;
+    }
+    #boton-consulta h3 {
+        margin: 5px 40px;
+        color: var(--color-black);
     }
     #investigacion{
         background-image: url(/img/images-info-branding/1.png);
@@ -399,6 +411,10 @@
     }
 }
 @media(max-width:425px){
+    #boton-consulta h3 {
+        margin: 2px 0px;
+        color: var(--color-black);
+    }
     .glide__slide img {
         width: 100.5%;
         }
@@ -456,6 +472,10 @@
     }
 }
 @media (max-width: 375px){
+    #boton-consulta h3 {
+        margin: 2px 0px;
+        color: var(--color-black);
+    }
     .glide__arrow{
         position: absolute;
         display: block;
@@ -481,6 +501,10 @@
         width: 19%;
         float: right;
         margin-top: -52px;
+    }
+    #boton-consulta h3 {
+        margin: 2px 0px;
+        color: var(--color-black);
     }
     .glide__slide img {
         padding-left: 3px;
